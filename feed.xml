@@ -3,7 +3,7 @@
     <title>Blog</title>
     <link href="https://johnxiaonathangnguyen.github.io/Blog/feed.xml" rel="self" />
     <link href="https://johnxiaonathangnguyen.github.io/Blog" />
-    <updated>2024-12-26T12:04:53+07:00</updated>
+    <updated>2024-12-26T14:59:29+07:00</updated>
     <author>
         <name>nguyenducthang</name>
     </author>
@@ -17,12 +17,13 @@
         <link href="https://johnxiaonathangnguyen.github.io/Blog/lich-su-cua-java-cau-chuyen-day-du-ve-su-phat-trien-java-tu-1991-den-2021.html"/>
         <id>https://johnxiaonathangnguyen.github.io/Blog/lich-su-cua-java-cau-chuyen-day-du-ve-su-phat-trien-java-tu-1991-den-2021.html</id>
         <media:content url="https://johnxiaonathangnguyen.github.io/Blog/media/posts/12/lich-su-hinh-thanh-va-phat-trien-cua-java-ngon-ngu-lap-trinh-pho-bien-nhat-the-gioi-1024x536.jpg" medium="image" />
+            <category term="Bài viết của tôi"/>
 
         <updated>2024-12-26T12:04:39+07:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://johnxiaonathangnguyen.github.io/Blog/media/posts/12/lich-su-hinh-thanh-va-phat-trien-cua-java-ngon-ngu-lap-trinh-pho-bien-nhat-the-gioi-1024x536.jpg" alt="" />
-                    Ngày nay Java là một trong những ngôn ngữ lập trình phổ biến và được yêu cầu nhiều nhất trên thế giới, với&hellip;
+                    Ngày nay Java là một trong những ngôn ngữ lập trình phổ biến và được yêu cầu nhiều nhất trên thế giới, với hơn 7 triệu nhà phát triển Java và hàng nghìn người học Java trực tuyến (trên các nền tảng như CodeGym và&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -81,12 +82,13 @@
         <link href="https://johnxiaonathangnguyen.github.io/Blog/cac-du-an-hang-dau-de-thuc-day-viec-hoc-java-cua-ban-2.html"/>
         <id>https://johnxiaonathangnguyen.github.io/Blog/cac-du-an-hang-dau-de-thuc-day-viec-hoc-java-cua-ban-2.html</id>
         <media:content url="https://johnxiaonathangnguyen.github.io/Blog/media/posts/11/images-5-2.jpg" medium="image" />
+            <category term="Bài viết của tôi"/>
 
         <updated>2024-12-26T11:59:09+07:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://johnxiaonathangnguyen.github.io/Blog/media/posts/11/images-5-2.jpg" alt="" />
-                    Nếu bạn là người mới bắt đầu lập trình Java, có lẽ đã đến lúc bạn bắt đầu làm việc với một dự&hellip;
+                    Nếu bạn là người mới bắt đầu lập trình Java, có lẽ đã đến lúc bạn bắt đầu làm việc với một dự án Java nào đó! Ở đây, tại CodeGym, chúng tôi tin tưởng vào hiệu quả tuyệt vời của cách tiếp cận hướng&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -130,12 +132,13 @@
         <link href="https://johnxiaonathangnguyen.github.io/Blog/lam-the-nao-de-hoan-thanh-viec-hoc-java-cua-ban-va-kiem-mot-cong-viec-loi-khuyen-va-goi-y-tot-nhat-cua-nhung-nguoi-da-thanh-cong.html"/>
         <id>https://johnxiaonathangnguyen.github.io/Blog/lam-the-nao-de-hoan-thanh-viec-hoc-java-cua-ban-va-kiem-mot-cong-viec-loi-khuyen-va-goi-y-tot-nhat-cua-nhung-nguoi-da-thanh-cong.html</id>
         <media:content url="https://johnxiaonathangnguyen.github.io/Blog/media/posts/9/images-3.jpg" medium="image" />
+            <category term="Bài viết của tôi"/>
 
         <updated>2024-12-26T11:54:34+07:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://johnxiaonathangnguyen.github.io/Blog/media/posts/9/images-3.jpg" alt="" />
-                    Bạn không nhất thiết phải là một thiên tài, có một nền tảng lập trình hay niềm tự hào của tuổi trẻ để&hellip;
+                    Bạn không nhất thiết phải là một thiên tài, có một nền tảng lập trình hay niềm tự hào của tuổi trẻ để bắt đầu sự nghiệp lập trình. Nếu bạn sẵn sàng học hỏi và sẵn sàng theo đuổi ước mơ của mình thì&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -169,12 +172,13 @@
         <link href="https://johnxiaonathangnguyen.github.io/Blog/lam-the-nao-de-be-khoa-cuoc-phong-van-java-tai-nguyen-tot-nhat-duoc-thu-hep.html"/>
         <id>https://johnxiaonathangnguyen.github.io/Blog/lam-the-nao-de-be-khoa-cuoc-phong-van-java-tai-nguyen-tot-nhat-duoc-thu-hep.html</id>
         <media:content url="https://johnxiaonathangnguyen.github.io/Blog/media/posts/8/images-2.jpg" medium="image" />
+            <category term="Bài viết của tôi"/>
 
         <updated>2024-12-26T11:52:29+07:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://johnxiaonathangnguyen.github.io/Blog/media/posts/8/images-2.jpg" alt="" />
-                    Chào mọi người! Nếu bạn đang nhắm đến (các) cuộc phỏng vấn dành cho nhà phát triển Java nhưng lại bối rối về&hellip;
+                    Chào mọi người! Nếu bạn đang nhắm đến (các) cuộc phỏng vấn dành cho nhà phát triển Java nhưng lại bối rối về cách chuẩn bị cho các cuộc phỏng vấn Java, thì bạn đang ở đúng nơi. Hướng dẫn ngắn gọn này có thể&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -292,12 +296,13 @@
         <link href="https://johnxiaonathangnguyen.github.io/Blog/tat-ca-ve-java-muc-do-pho-bien-dac-quyen-va-ung-dung-cua-no.html"/>
         <id>https://johnxiaonathangnguyen.github.io/Blog/tat-ca-ve-java-muc-do-pho-bien-dac-quyen-va-ung-dung-cua-no.html</id>
         <media:content url="https://johnxiaonathangnguyen.github.io/Blog/media/posts/7/images-1.jpg" medium="image" />
+            <category term="Bài viết của tôi"/>
 
         <updated>2024-12-26T11:49:58+07:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://johnxiaonathangnguyen.github.io/Blog/media/posts/7/images-1.jpg" alt="" />
-                    Bạn sắp bắt đầu viết mã nhưng vẫn còn phân vân không biết nên chọn ngôn ngữ nào? Dưới đây, chúng tôi sẽ&hellip;
+                    Bạn sắp bắt đầu viết mã nhưng vẫn còn phân vân không biết nên chọn ngôn ngữ nào? Dưới đây, chúng tôi sẽ đề cập đến những câu hỏi phổ biến nhất về Java và tiết lộ lý do tại sao nó là một trong&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -372,12 +377,13 @@
         <link href="https://johnxiaonathangnguyen.github.io/Blog/java-co-con-phu-hop-khong-nhung-gi-cac-cong-ty-lon-su-dung-no.html"/>
         <id>https://johnxiaonathangnguyen.github.io/Blog/java-co-con-phu-hop-khong-nhung-gi-cac-cong-ty-lon-su-dung-no.html</id>
         <media:content url="https://johnxiaonathangnguyen.github.io/Blog/media/posts/6/images.jpg" medium="image" />
+            <category term="Bài viết của tôi"/>
 
         <updated>2024-12-26T11:48:22+07:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://johnxiaonathangnguyen.github.io/Blog/media/posts/6/images.jpg" alt="" />
-                    Nếu bạn muốn hiểu tại sao Java vẫn là một thứ dành cho các công ty lớn, thì bạn đang ở đúng nơi.
+                    Nếu bạn muốn hiểu tại sao Java vẫn là một thứ dành cho các công ty lớn, thì bạn đang ở đúng nơi. Mặc dù năm nay đánh dấu kỷ niệm 28 năm của Java, nhưng nó vẫn là thứ không thể bị coi là&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -416,12 +422,13 @@
         <link href="https://johnxiaonathangnguyen.github.io/Blog/ngan-xep-java.html"/>
         <id>https://johnxiaonathangnguyen.github.io/Blog/ngan-xep-java.html</id>
         <media:content url="https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/original-2.jpeg" medium="image" />
+            <category term="Bài viết của tôi"/>
 
         <updated>2024-12-26T11:41:29+07:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/original-2.jpeg" alt="" />
-                    Ngăn xếp trong Java thường có nghĩa là lớp từ Bộ sưu tập Khung triển khai giao diện Danh sách. Nó hoạt động&hellip;
+                    Ngăn xếp trong Java thường có nghĩa là lớp từ Bộ sưu tập Khung triển khai giao diện Danh sách. Nó hoạt động theo nguyên tắc cấu trúc dữ liệu Stack, được sử dụng để tổ chức một trong các loại bộ nhớ. Ngoài ra,&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -459,11 +466,11 @@
 </ul>
 <h2>Ví dụ mã ngăn xếp</h2>
 <p>Hãy tạo một ví dụ chương trình hoạt động như ảnh gif ở trên. Chúng tôi sẽ đặt ba "quả bóng", cam, tím và xanh lá cây, trên ngăn xếp. Hãy kiểm tra ngăn xếp xem có trống không. Sau đó, chúng tôi sẽ lấy các quả bóng từ ngăn xếp cho đến khi ngăn xếp trống.</p>
-<figure class="post__image"> <img loading="lazy"  src="https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/b1335d83806d3d33647c-2.jpg" alt="" width="1074" height="745" sizes="(max-width: 48em) 100vw, 768px" srcset="https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/responsive/b1335d83806d3d33647c-2-xs.jpg 300w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/responsive/b1335d83806d3d33647c-2-sm.jpg 480w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/responsive/b1335d83806d3d33647c-2-md.jpg 768w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/responsive/b1335d83806d3d33647c-2-lg.jpg 1024w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/responsive/b1335d83806d3d33647c-2-xl.jpg 1360w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/responsive/b1335d83806d3d33647c-2-2xl.jpg 1600w"></figure>
+<figure class="post__image"> <img loading="lazy"  src="https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/b1335d83806d3d33647c-2.jpg" alt="" width="1074" height="745" sizes="(min-width: 1500px) calc(7.87vw + 610px), (min-width: 900px) calc(44.48vw + 68px), (min-width: 780px) calc(8vw + 604px), calc(84.35vw + 23px)" srcset="https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/responsive/b1335d83806d3d33647c-2-xs.jpg 300w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/responsive/b1335d83806d3d33647c-2-sm.jpg 480w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/responsive/b1335d83806d3d33647c-2-md.jpg 768w"></figure>
 <p>Đây là đầu ra của chương trình này:</p>
-<figure class="post__image"><img loading="lazy"  src="https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/da1933ac9c42211c7853-3.jpg" alt="" width="1288" height="312" sizes="(max-width: 48em) 100vw, 768px" srcset="https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/responsive/da1933ac9c42211c7853-3-xs.jpg 300w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/responsive/da1933ac9c42211c7853-3-sm.jpg 480w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/responsive/da1933ac9c42211c7853-3-md.jpg 768w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/responsive/da1933ac9c42211c7853-3-lg.jpg 1024w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/responsive/da1933ac9c42211c7853-3-xl.jpg 1360w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/responsive/da1933ac9c42211c7853-3-2xl.jpg 1600w"></figure>
+<figure class="post__image"><img loading="lazy"  src="https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/da1933ac9c42211c7853-3.jpg" alt="" width="1288" height="312" sizes="(min-width: 1500px) calc(7.87vw + 610px), (min-width: 900px) calc(44.48vw + 68px), (min-width: 780px) calc(8vw + 604px), calc(84.35vw + 23px)" srcset="https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/responsive/da1933ac9c42211c7853-3-xs.jpg 300w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/responsive/da1933ac9c42211c7853-3-sm.jpg 480w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/responsive/da1933ac9c42211c7853-3-md.jpg 768w"></figure>
 <p>Do <code><span class="code">Stack</span></code> được kế thừa từ Lớp <code><span class="code">Vector</span></code> và triển khai giao diện <code><span class="code">Danh sách</span></code> , nên ngoài các thao tác đẩy và bật cổ điển cho cấu trúc dữ liệu này để thêm và trích xuất các phần tử, <code><span class="code">Stack còn có tiêu chuẩn cho các thao tác </span><span class="code">thêm ()</span> và <span class="code">xóa ()</span></code> của cấu trúc danh sách . Trong ví dụ của chúng tôi, việc thêm các phần tử có thể được thực hiện theo cách tương tự bằng cách sử dụng phương thức <code><span class="code">add()</span></code> . Tuy nhiên, bạn chỉ có thể trích xuất bằng cách sử dụng <code><span class="code">remove() với một phần tử được chỉ định, điều này không có ý nghĩa gì đối với cấu trúc dữ liệu ngăn xếp.</span></code></p>
-<figure class="post__image"><img loading="lazy"  src="https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/032d5f21e4cf599100de-3.jpg" alt="" width="1067" height="733" sizes="(max-width: 48em) 100vw, 768px" srcset="https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/responsive/032d5f21e4cf599100de-3-xs.jpg 300w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/responsive/032d5f21e4cf599100de-3-sm.jpg 480w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/responsive/032d5f21e4cf599100de-3-md.jpg 768w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/responsive/032d5f21e4cf599100de-3-lg.jpg 1024w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/responsive/032d5f21e4cf599100de-3-xl.jpg 1360w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/responsive/032d5f21e4cf599100de-3-2xl.jpg 1600w"></figure>
+<figure class="post__image"><img loading="lazy"  src="https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/032d5f21e4cf599100de-3.jpg" alt="" width="1067" height="733" sizes="(min-width: 1500px) calc(7.87vw + 610px), (min-width: 900px) calc(44.48vw + 68px), (min-width: 780px) calc(8vw + 604px), calc(84.35vw + 23px)" srcset="https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/responsive/032d5f21e4cf599100de-3-xs.jpg 300w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/responsive/032d5f21e4cf599100de-3-sm.jpg 480w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/responsive/032d5f21e4cf599100de-3-md.jpg 768w"></figure>
 <p> Tất nhiên, kết quả của công việc chương trình sẽ giống hệt nhau. </p>
 <h2>Còn việc triển khai Stack của riêng bạn thì sao?</h2>
 <p>Bạn có thể tạo cấu trúc dữ liệu ngăn xếp của riêng mình trong Java bằng cách sử dụng mảng hoặc lớp danh sách liên kết. Trong trường hợp đầu tiên, một mảng ô liên tục được phân bổ để lưu trữ các giá trị trong bộ nhớ, được sử dụng khi cần thiết. Trong trường hợp thứ hai, đối với mỗi phần tử của ngăn xếp, một khối bộ nhớ được sắp xếp, đủ để lưu trữ giá trị và tham chiếu đến các phần tử trước đó và tiếp theo của ngăn xếp. Việc triển khai dựa trên mảng đơn giản hơn, hiệu quả hơn và tiết kiệm bộ nhớ hơn, nhưng nó yêu cầu kiến ​​thức trước về giới hạn kích thước ngăn xếp và có thể dẫn đến các lỗi khó tìm. Việc triển khai dựa trên danh sách mạnh mẽ hơn nhưng kém hiệu quả hơn. Hãy thực hiện một triển khai ngăn xếp dựa trên mảng đơn giản. Nó sẽ bao gồm các chức năng.</p>
@@ -484,12 +491,12 @@
 <p><code><span class="code">isFull</span> </code>— một phương thức sẽ kiểm tra xem mảng mà chúng ta lưu trữ ngăn xếp có đầy không</p>
 </li>
 </ul>
-<figure class="post__image"><img loading="lazy"  src="https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/4038c6c4722acf74963b.jpg" alt="" width="884" height="800" sizes="(max-width: 48em) 100vw, 768px" srcset="https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/responsive/4038c6c4722acf74963b-xs.jpg 300w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/responsive/4038c6c4722acf74963b-sm.jpg 480w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/responsive/4038c6c4722acf74963b-md.jpg 768w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/responsive/4038c6c4722acf74963b-lg.jpg 1024w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/responsive/4038c6c4722acf74963b-xl.jpg 1360w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/responsive/4038c6c4722acf74963b-2xl.jpg 1600w"></figure>
-<figure class="post__image"><img loading="lazy"  src="https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/4663583feed1538f0ac0-2.jpg" alt="" width="884" height="442" sizes="(max-width: 48em) 100vw, 768px" srcset="https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/responsive/4663583feed1538f0ac0-2-xs.jpg 300w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/responsive/4663583feed1538f0ac0-2-sm.jpg 480w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/responsive/4663583feed1538f0ac0-2-md.jpg 768w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/responsive/4663583feed1538f0ac0-2-lg.jpg 1024w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/responsive/4663583feed1538f0ac0-2-xl.jpg 1360w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/responsive/4663583feed1538f0ac0-2-2xl.jpg 1600w"></figure>
+<figure class="post__image"><img loading="lazy"  src="https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/4038c6c4722acf74963b.jpg" alt="" width="884" height="800" sizes="(min-width: 1500px) calc(7.87vw + 610px), (min-width: 900px) calc(44.48vw + 68px), (min-width: 780px) calc(8vw + 604px), calc(84.35vw + 23px)" srcset="https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/responsive/4038c6c4722acf74963b-xs.jpg 300w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/responsive/4038c6c4722acf74963b-sm.jpg 480w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/responsive/4038c6c4722acf74963b-md.jpg 768w"></figure>
+<figure class="post__image"><img loading="lazy"  src="https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/4663583feed1538f0ac0-2.jpg" alt="" width="884" height="442" sizes="(min-width: 1500px) calc(7.87vw + 610px), (min-width: 900px) calc(44.48vw + 68px), (min-width: 780px) calc(8vw + 604px), calc(84.35vw + 23px)" srcset="https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/responsive/4663583feed1538f0ac0-2-xs.jpg 300w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/responsive/4663583feed1538f0ac0-2-sm.jpg 480w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/responsive/4663583feed1538f0ac0-2-md.jpg 768w"></figure>
 <p>Bây giờ, hãy thực hiện một ví dụ với ba quả bóng dựa trên ngăn xếp của chúng tôi:</p>
-<figure class="post__image"><img loading="lazy"  src="https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/2ab1665aedb450ea09a5.jpg" alt="" width="881" height="467" sizes="(max-width: 48em) 100vw, 768px" srcset="https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/responsive/2ab1665aedb450ea09a5-xs.jpg 300w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/responsive/2ab1665aedb450ea09a5-sm.jpg 480w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/responsive/2ab1665aedb450ea09a5-md.jpg 768w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/responsive/2ab1665aedb450ea09a5-lg.jpg 1024w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/responsive/2ab1665aedb450ea09a5-xl.jpg 1360w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/responsive/2ab1665aedb450ea09a5-2xl.jpg 1600w"></figure>
+<figure class="post__image"><img loading="lazy"  src="https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/2ab1665aedb450ea09a5.jpg" alt="" width="881" height="467" sizes="(min-width: 1500px) calc(7.87vw + 610px), (min-width: 900px) calc(44.48vw + 68px), (min-width: 780px) calc(8vw + 604px), calc(84.35vw + 23px)" srcset="https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/responsive/2ab1665aedb450ea09a5-xs.jpg 300w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/responsive/2ab1665aedb450ea09a5-sm.jpg 480w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/responsive/2ab1665aedb450ea09a5-md.jpg 768w"></figure>
 <p> Đầu ra ở đây: </p>
-<figure class="post__image"><img loading="lazy"  src="https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/1da74fd4c03a7d64242b.jpg" alt="" width="1206" height="271" sizes="(max-width: 48em) 100vw, 768px" srcset="https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/responsive/1da74fd4c03a7d64242b-xs.jpg 300w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/responsive/1da74fd4c03a7d64242b-sm.jpg 480w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/responsive/1da74fd4c03a7d64242b-md.jpg 768w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/responsive/1da74fd4c03a7d64242b-lg.jpg 1024w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/responsive/1da74fd4c03a7d64242b-xl.jpg 1360w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/responsive/1da74fd4c03a7d64242b-2xl.jpg 1600w"></figure>
+<figure class="post__image"><img loading="lazy"  src="https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/1da74fd4c03a7d64242b.jpg" alt="" width="1206" height="271" sizes="(min-width: 1500px) calc(7.87vw + 610px), (min-width: 900px) calc(44.48vw + 68px), (min-width: 780px) calc(8vw + 604px), calc(84.35vw + 23px)" srcset="https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/responsive/1da74fd4c03a7d64242b-xs.jpg 300w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/responsive/1da74fd4c03a7d64242b-sm.jpg 480w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/responsive/1da74fd4c03a7d64242b-md.jpg 768w"></figure>
 <p> Nếu bạn nhìn kỹ, biến trên cùng thực sự chứa chỉ mục của phần tử cuối cùng và tham chiếu đến đối tượng vẫn còn trong mảng. Vì vậy, việc thực hiện này cần một số cải tiến. Hãy suy nghĩ về cách dễ nhất để làm điều này.</p>
 <h2>Chúng ta có nên sử dụng Java Stack không?</h2>
 <p>Trên thực tế, Java<span class="code"> <code>Stack</code></span><code> </code>, giống như <code><span class="code">Vector</span> </code>cha của nó, là một lớp kế thừa. Thay vào đó, lớp <code><span class="code">ArrayList</span> </code>thường được sử dụng. <code><span class="code">ArrayList</span> </code>không được đồng bộ hóa trong khi <code><span class="code">Vector</span> </code>được đồng bộ hóa. Điều đó có nghĩa là với <span class="code"><code>Vector</code>,</span> chỉ một luồng tại một thời điểm có thể truy cập mã, trong khi <code><span class="code">ArrayList</span> </code>có thể hoạt động với nhiều luồng. Ngoài ra, <code><span class="code">ArrayList</span> </code>hiệu quả hơn và nhanh hơn. Vì vậy, rất có thể bạn sẽ chỉ thấy lớp này trong mã kế thừa. Nhưng cấu trúc dữ liệu <code><span class="code">Stack</span> </code>được sử dụng rất thường xuyên trong lập trình.</p>
@@ -504,12 +511,13 @@
         <link href="https://johnxiaonathangnguyen.github.io/Blog/nhung-yeu-cau-pho-bien-nao-ma-cac-cong-ty-co-doi-voi-cac-nha-phat-trien-java-cap-duoi-bo-ky-nang-toi-thieu-la-gi.html"/>
         <id>https://johnxiaonathangnguyen.github.io/Blog/nhung-yeu-cau-pho-bien-nao-ma-cac-cong-ty-co-doi-voi-cac-nha-phat-trien-java-cap-duoi-bo-ky-nang-toi-thieu-la-gi.html</id>
         <media:content url="https://johnxiaonathangnguyen.github.io/Blog/media/posts/4/original-1.jpeg" medium="image" />
+            <category term="Bài viết của tôi"/>
 
         <updated>2024-12-26T11:18:01+07:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://johnxiaonathangnguyen.github.io/Blog/media/posts/4/original-1.jpeg" alt="" />
-                    Hãy bắt đầu với những điều cơ bản. Tại sao vị trí Junior Java developer lại hấp dẫn? Câu trả lời rất đơn&hellip;
+                    Hãy bắt đầu với những điều cơ bản. Tại sao vị trí Junior Java developer lại hấp dẫn? Câu trả lời rất đơn giản – Các nhà phát triển Java sơ cấp là những lập trình viên mới bắt đầu có thể kiếm được nhiều&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -618,12 +626,13 @@
         <link href="https://johnxiaonathangnguyen.github.io/Blog/co-gi-moi-de-mong-doi-tu-java-vao-nam-2023-cac-ban-cap-nhat-xu-huong-moi-noi-va-nhu-cau-doi-voi-cac-chuyen-gia-java.html"/>
         <id>https://johnxiaonathangnguyen.github.io/Blog/co-gi-moi-de-mong-doi-tu-java-vao-nam-2023-cac-ban-cap-nhat-xu-huong-moi-noi-va-nhu-cau-doi-voi-cac-chuyen-gia-java.html</id>
         <media:content url="https://johnxiaonathangnguyen.github.io/Blog/media/posts/3/original.jpeg" medium="image" />
+            <category term="Bài viết của tôi"/>
 
         <updated>2024-12-26T11:06:45+07:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://johnxiaonathangnguyen.github.io/Blog/media/posts/3/original.jpeg" alt="" />
-                    Nhìn vào năm 2022 , không có dấu hiệu nào cho thấy mức độ phổ biến của Java sẽ chậm lại trong tất&hellip;
+                    Nhìn vào năm 2022 , không có dấu hiệu nào cho thấy mức độ phổ biến của Java sẽ chậm lại trong tất cả các ngành. Java đã có hai phiên bản mới, trong khi VMware cuối cùng đã phát hành Spring Framework 6 và&hellip;
                 ]]>
             </summary>
         <content type="html">
