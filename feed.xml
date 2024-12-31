@@ -21,19 +21,19 @@
         <updated>2024-12-29T20:56:32+07:00</updated>
             <summary>
                 <![CDATA[
-                    Là một trong những ngôn ngữ lập trình hướng đối tượng (OOP), Java cung cấp các tính chất OOP mạnh mẽ giúp các lập trình&hellip;
+                    Là một trong những ngôn ngữ lập trình hướng đối tượng (OOP),&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                <figure class="post__image"><img loading="lazy"  src="https://johnxiaonathangnguyen.github.io/Blog/media/posts/44/oop.jpg" alt="" width="800" height="500" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://johnxiaonathangnguyen.github.io/Blog/media/posts/44/responsive/oop-xs.jpg 300w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/44/responsive/oop-sm.jpg 480w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/44/responsive/oop-md.jpg 768w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/44/responsive/oop-lg.jpg 1024w"></figure>
+                <figure class="post__image"><img loading="lazy"  src="https://johnxiaonathangnguyen.github.io/Blog/media/posts/44/oop.jpg" alt="" width="800" height="500" sizes="(min-width: 760px) 660px, calc(93.18vw - 30px)" srcset="https://johnxiaonathangnguyen.github.io/Blog/media/posts/44/responsive/oop-xs.jpg 320w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/44/responsive/oop-sm.jpg 480w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/44/responsive/oop-md.jpg 768w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/44/responsive/oop-xl.jpg 1024w"></figure>
 <p>Là một trong những ngôn ngữ lập trình hướng đối tượng (OOP), Java cung cấp các tính chất OOP mạnh mẽ giúp các lập trình viên phát triển các ứng dụng phức tạp. Trong bài viết này, hãy cùng <a href="https://rikkei.edu.vn/"><strong>Rikkei Academy</strong></a> tìm hiểu về 4 tính chất OOP Java bao gồm: tính kế thừa, tính đa hình, tính đóng gói và tính trừu tượng.</p>
 <p><strong>OPP là gì?</strong></p>
 <p>Lập trình hướng đối tượng (OOP) là một mô hình lập trình tập trung vào sử dụng “đối tượng” để biểu diễn và thao tác dữ liệu. OPP giúp giải quyết các vấn đề phức tạp trong lập trình bằng cách chia các vấn đề thành các đối tượng nhỏ hơn và dễ quản lý hơn.</p>
 <p>Trong OOP, dữ liệu được đóng gói trong các đối tượng và các đối tượng được xác định bởi các thuộc tính (attributes) và hành vi (methods) của chúng. Ở đây, chúng ta sẽ đi sâu vào 4 tính chất OOP của Java bao gồm trừu tượng (abstraction), đóng gói (Encapsulation), kế thừa (Inheritance) và đa hình (Polymorrphism).</p>
 <p><strong>Tính kế thừa (Inheritance)</strong></p>
 <p>Tình chất đầu tiên trong 4 tính chất OOP Java chính là tính kế thừa. Tính kế thừa cho phép xây dựng các lớp mới trên cơ sở của lớp hiện có. Lớp mới (con) sẽ được kế thừa các thuộc tính và phương thức của lớp cha. Nó tương tự một đứa trẻ sẽ kế thừa các đặc điểm như màu da, màu tóc, cách nói chuyện…của cha mẹ.</p>
-<figure class="post__image"><img loading="lazy"  src="https://johnxiaonathangnguyen.github.io/Blog/media/posts/44/family.jpg" alt="" width="800" height="500" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://johnxiaonathangnguyen.github.io/Blog/media/posts/44/responsive/family-xs.jpg 300w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/44/responsive/family-sm.jpg 480w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/44/responsive/family-md.jpg 768w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/44/responsive/family-lg.jpg 1024w"></figure>
+<figure class="post__image"><img loading="lazy"  src="https://johnxiaonathangnguyen.github.io/Blog/media/posts/44/family.jpg" alt="" width="800" height="500" sizes="(min-width: 760px) 660px, calc(93.18vw - 30px)" srcset="https://johnxiaonathangnguyen.github.io/Blog/media/posts/44/responsive/family-xs.jpg 320w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/44/responsive/family-sm.jpg 480w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/44/responsive/family-md.jpg 768w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/44/responsive/family-xl.jpg 1024w"></figure>
 <p>Việc sử dụng kế thừa giúp tiết kiệm thời gian và nỗ lực trong việc lập trình và giảm thiểu lỗi lặp lại. Nó cũng giúp tăng tính tái sử dụng của mã lập trình.</p>
 <p><strong>Tính kế thừa thể hiện trong Java</strong></p>
 <p>Trong Java, để kế thừa các thuộc tính và phương thức của một lớp cha, chúng ta sử dụng từ khóa “extends” khi khai báo lớp con. Ví dụ:</p>
@@ -114,7 +114,7 @@
 </table>
 <p><strong>Tính trừu tượng (Abstraction)</strong></p>
 <p>Trừu tượng là tính chất cuối cùng trong 4 tính chất OOP Java chúng ta tìm hiểu trong bài viết này. Tính trừu tượng cho phép chúng ta tạo ra các lớp trừu tượng mà không cần cung cấp các triển khai cụ thể cho các phương thức của chúng. Ví dụ, chúng ta có thể mô tả một chiếc xe dựa trên màu sắc, hiệu xe và số chỗ ngồi mà không cần biết chi tiết về cấu tạo bên trong của xe.</p>
-<figure class="post__image"><img loading="lazy"  src="https://johnxiaonathangnguyen.github.io/Blog/media/posts/44/car.jpg" alt="" width="800" height="500" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://johnxiaonathangnguyen.github.io/Blog/media/posts/44/responsive/car-xs.jpg 300w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/44/responsive/car-sm.jpg 480w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/44/responsive/car-md.jpg 768w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/44/responsive/car-lg.jpg 1024w"></figure>
+<figure class="post__image"><img loading="lazy"  src="https://johnxiaonathangnguyen.github.io/Blog/media/posts/44/car.jpg" alt="" width="800" height="500" sizes="(min-width: 760px) 660px, calc(93.18vw - 30px)" srcset="https://johnxiaonathangnguyen.github.io/Blog/media/posts/44/responsive/car-xs.jpg 320w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/44/responsive/car-sm.jpg 480w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/44/responsive/car-md.jpg 768w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/44/responsive/car-xl.jpg 1024w"></figure>
 <p>Việc sử dụng tính trừu tượng giúp tăng tính linh hoạt của chương trình, cho phép chúng ta dễ dàng thay đổi hoặc thêm mới các phương thức mà không ảnh hưởng đến các lớp khác trong chương trình. Nó cũng giúp giảm sự phức tạp của mã lập trình bằng cách tập trung vào các hành động cần thiết của đối tượng mà không cần quan tâm đến các chi tiết cài đặt cụ thể.</p>
 <p><strong>Tính trừu tượng thể hiện trong Java</strong></p>
 <p>Bạn có thể đạt được trừu tượng thông qua hai cơ chế chính:</p>
@@ -168,7 +168,7 @@
         <updated>2024-12-29T20:53:32+07:00</updated>
             <summary>
                 <![CDATA[
-                    Debug là kỹ năng thiết yếu cho mọi lập trình viên Java, giúp bạn kiểm tra và giải quyết các vấn đề trong mã nguồn. Từ&hellip;
+                    Debug là kỹ năng thiết yếu cho mọi lập trình viên Java, giúp&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -313,7 +313,7 @@
         <updated>2024-12-29T20:52:16+07:00</updated>
             <summary>
                 <![CDATA[
-                    Sự ra đời của Java 8 đã làm thay đổi thói quen sử dụng của nhiều người lập trình đối với các Collection so với&hellip;
+                    Sự ra đời của Java 8 đã làm thay đổi thói quen&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -442,12 +442,12 @@
         <updated>2024-12-29T20:49:45+07:00</updated>
             <summary>
                 <![CDATA[
-                    Java đã có những phát triển để trở thành một trong những ngôn ngữ lập trình phổ biến nhất trên thế giới. Java khá linh&hellip;
+                    Java đã có những phát triển để trở thành một trong những&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                <figure class="post__image"><img loading="lazy"  src="https://johnxiaonathangnguyen.github.io/Blog/media/posts/41/java.jpg" alt="" width="900" height="560" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://johnxiaonathangnguyen.github.io/Blog/media/posts/41/responsive/java-xs.jpg 300w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/41/responsive/java-sm.jpg 480w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/41/responsive/java-md.jpg 768w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/41/responsive/java-lg.jpg 1024w"></figure>
+                <figure class="post__image"><img loading="lazy"  src="https://johnxiaonathangnguyen.github.io/Blog/media/posts/41/java.jpg" alt="" width="900" height="560" sizes="(min-width: 760px) 660px, calc(93.18vw - 30px)" srcset="https://johnxiaonathangnguyen.github.io/Blog/media/posts/41/responsive/java-xs.jpg 320w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/41/responsive/java-sm.jpg 480w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/41/responsive/java-md.jpg 768w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/41/responsive/java-xl.jpg 1024w"></figure>
 <p>Java đã có những phát triển để trở thành một trong những ngôn ngữ lập trình phổ biến nhất trên thế giới. Java khá linh hoạt, tương đối dễ sử dụng và được sử dụng trong nhiều trường hợp. Điều này cho thấy Java là một ngôn ngữ tuyệt vời để học - cho cả những lập trình viên mới bắt đầu và có kinh nghiệm - dẫn đến nhu cầu học cách code Java.</p>
 <p>Mục đích của hướng dẫn lập trình Java này là cung cấp một giới thiệu về Java cơ bản và lập trình Java. Chúng ta sẽ tìm hiểu lý do tại sao bạn nên học lập trình Java cơ bản, các công cụ bạn cần để code Java và một vài điều đơn giản hỗ trợ bạn trong quá trình học.</p>
 <p>Nếu không còn thắc mắc nào, hãy bắt đầu xem hướng dẫn code Java này ngay thôi!</p>
@@ -470,7 +470,7 @@
 <p><strong>Bộ công cụ phát triển Java (Java Development Kit)</strong></p>
 <p>Bộ công cụ phát triển Java, hay JDK, là một chương trình cho phép bạn viết code Java một cách thoải mái trên máy tính để bàn. Nó chứa nhiều công cụ hữu ích để khởi tạo, chạy và tối ưu hóa code Java của bạn. Nó có thể được sử dụng với môi trường phát triển tích hợp Eclipse integrated development  environment (IDE) để làm cho việc viết code dễ dàng hơn bao giờ hết.</p>
 <p>Trước khi bạn sử dụng JDK, bạn sẽ cần tải và cài đặt nó trên máy tính. Đây là một bước quan trọng của việc học cách viết code Java. Bắt đầu với:</p>
-<figure class="post__image"><img loading="lazy"  src="https://johnxiaonathangnguyen.github.io/Blog/media/posts/41/tool.jpg" alt="" width="1014" height="542" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://johnxiaonathangnguyen.github.io/Blog/media/posts/41/responsive/tool-xs.jpg 300w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/41/responsive/tool-sm.jpg 480w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/41/responsive/tool-md.jpg 768w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/41/responsive/tool-lg.jpg 1024w"></figure>
+<figure class="post__image"><img loading="lazy"  src="https://johnxiaonathangnguyen.github.io/Blog/media/posts/41/tool.jpg" alt="" width="1014" height="542" sizes="(min-width: 760px) 660px, calc(93.18vw - 30px)" srcset="https://johnxiaonathangnguyen.github.io/Blog/media/posts/41/responsive/tool-xs.jpg 320w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/41/responsive/tool-sm.jpg 480w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/41/responsive/tool-md.jpg 768w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/41/responsive/tool-xl.jpg 1024w"></figure>
 <ol>
 <li>Đi đến trang <a href="https://www.oracle.com/technetwork/java/javase/downloads/index.html"><strong>Java SE Downloads</strong></a>và nhấp vào phiên bản mới nhất của JDK. Làm theo hướng dẫn hiện lên trên màn hình để bắt đầu tải gói phù hợp cho hệ điều hành của bạn.</li>
 <li>Sau khi việc tải xuống hoàn tất, bạn cần chạy nó. Cách tốt nhất để làm điều này phụ thuộc vào việc bạn sử dụng Windows hay Mac, nhưng nó cũng không khác biệt so với việc cài đặt bất kỳ phần mềm nào khác.</li>
@@ -503,7 +503,7 @@
 <p><strong>Bắt đầu một dự án mới</strong></p>
 <p>Một khi bạn đã biết về Eclipse IDE chúng ta sẽ tiếp tục với phần tạo một dự án Java mới. Trước tiên, chọn <strong>File</strong>, sau đó chọn <strong>New</strong>, tiếp theo là <strong>Java Project</strong>. Hoàn toàn dễ dàng đúng không? Đặt tên cho dự án của bạn và thiết lập các phần còn lại dưới dạng mặc định (default). Chọn Finish và xem kết quả.</p>
 <p>Xin chúc mừng, bạn vừa tạo dự án Java (Java Project) đầu tiên! Bây giờ hãy tìm hiểu một chút về ngôn ngữ và cách chúng ta sử dụng nó để xây dựng các chương trình.</p>
-<figure class="post__image"><img loading="lazy"  src="https://johnxiaonathangnguyen.github.io/Blog/media/posts/41/new.jpg" alt="" width="774" height="518" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://johnxiaonathangnguyen.github.io/Blog/media/posts/41/responsive/new-xs.jpg 300w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/41/responsive/new-sm.jpg 480w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/41/responsive/new-md.jpg 768w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/41/responsive/new-lg.jpg 1024w"></figure>
+<figure class="post__image"><img loading="lazy"  src="https://johnxiaonathangnguyen.github.io/Blog/media/posts/41/new.jpg" alt="" width="774" height="518" sizes="(min-width: 760px) 660px, calc(93.18vw - 30px)" srcset="https://johnxiaonathangnguyen.github.io/Blog/media/posts/41/responsive/new-xs.jpg 320w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/41/responsive/new-sm.jpg 480w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/41/responsive/new-md.jpg 768w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/41/responsive/new-xl.jpg 1024w"></figure>
 <p><strong>Giới thiệu về ngôn ngữ Java</strong></p>
 <p>Như chúng tôi đã lưu ý trước, Java là một ngôn ngữ lập trình tương đối đơn giản. Tuy nhiên, điều này không có nghĩa là nó không có một chút phức tạp. Mặc dù tôi đã cố gắng giữ cho nó thật đơn giản như sau (giữ nguyên chủ đề Java cho người mới bắt đầu,), bạn cũng không nên mong chờ bạn sẽ hiểu ngay mọi thứ. Ngay cả việc học Java cơ bản cũng mất thời gian và sẽ mất rất nhiều công sức và cam kết trước khi bạn hiểu cách viết code Java hiệu quả.</p>
 <p>Hãy bắt đầu với một trong những tính năng chính của ngôn ngữ - bản chất hướng đối tượng. Lưu ý rằng để bao gồm tất cả các tính năng của ngôn ngữ hướng đối tượng sẽ cần một bài viết đầy đủ, vì vậy phần bên dưới chỉ là một giới thiệu ngắn gọn.</p>
@@ -546,7 +546,7 @@
             <summary>
                 <![CDATA[
                         <img src="https://johnxiaonathangnguyen.github.io/Blog/media/posts/12/lich-su-hinh-thanh-va-phat-trien-cua-java-ngon-ngu-lap-trinh-pho-bien-nhat-the-gioi-1024x536.jpg" alt="" />
-                    Ngày nay Java là một trong những ngôn ngữ lập trình phổ biến và được yêu cầu nhiều nhất trên thế giới, với hơn 7&hellip;
+                    Ngày nay Java là một trong những ngôn ngữ lập trình phổ&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -611,7 +611,7 @@
             <summary>
                 <![CDATA[
                         <img src="https://johnxiaonathangnguyen.github.io/Blog/media/posts/11/images-5-2.jpg" alt="" />
-                    Nếu bạn là người mới bắt đầu lập trình Java, có lẽ đã đến lúc bạn bắt đầu làm việc với một dự án Java&hellip;
+                    Nếu bạn là người mới bắt đầu lập trình Java, có lẽ&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -661,7 +661,7 @@
             <summary>
                 <![CDATA[
                         <img src="https://johnxiaonathangnguyen.github.io/Blog/media/posts/9/images-3.jpg" alt="" />
-                    Bạn không nhất thiết phải là một thiên tài, có một nền tảng lập trình hay niềm tự hào của tuổi trẻ để bắt đầu&hellip;
+                    Bạn không nhất thiết phải là một thiên tài, có một nền&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -701,7 +701,7 @@
             <summary>
                 <![CDATA[
                         <img src="https://johnxiaonathangnguyen.github.io/Blog/media/posts/8/images-2.jpg" alt="" />
-                    Chào mọi người! Nếu bạn đang nhắm đến (các) cuộc phỏng vấn dành cho nhà phát triển Java nhưng lại bối rối về cách chuẩn&hellip;
+                    Chào mọi người! Nếu bạn đang nhắm đến (các) cuộc phỏng vấn&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -825,7 +825,7 @@
             <summary>
                 <![CDATA[
                         <img src="https://johnxiaonathangnguyen.github.io/Blog/media/posts/7/images-1.jpg" alt="" />
-                    Bạn sắp bắt đầu viết mã nhưng vẫn còn phân vân không biết nên chọn ngôn ngữ nào? Dưới đây, chúng tôi sẽ đề cập&hellip;
+                    Bạn sắp bắt đầu viết mã nhưng vẫn còn phân vân không&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -906,7 +906,7 @@
             <summary>
                 <![CDATA[
                         <img src="https://johnxiaonathangnguyen.github.io/Blog/media/posts/6/images.jpg" alt="" />
-                    Nếu bạn muốn hiểu tại sao Java vẫn là một thứ dành cho các công ty lớn, thì bạn đang ở đúng nơi. Mặc dù&hellip;
+                    Nếu bạn muốn hiểu tại sao Java vẫn là một thứ dành&hellip;
                 ]]>
             </summary>
         <content type="html">
