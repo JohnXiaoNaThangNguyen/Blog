@@ -3,12 +3,535 @@
     <title>Blog</title>
     <link href="https://johnxiaonathangnguyen.github.io/Blog/feed.xml" rel="self" />
     <link href="https://johnxiaonathangnguyen.github.io/Blog" />
-    <updated>2024-12-26T14:59:29+07:00</updated>
+    <updated>2024-12-29T20:56:36+07:00</updated>
     <author>
         <name>nguyenducthang</name>
     </author>
     <id>https://johnxiaonathangnguyen.github.io/Blog</id>
 
+    <entry>
+        <title>4 Tính Chất OOP Java Thể Hiện Như Thế Nào?</title>
+        <author>
+            <name>nguyenducthang</name>
+        </author>
+        <link href="https://johnxiaonathangnguyen.github.io/Blog/4-tinh-chat-oop-java-the-hien-nhu-the-nao.html"/>
+        <id>https://johnxiaonathangnguyen.github.io/Blog/4-tinh-chat-oop-java-the-hien-nhu-the-nao.html</id>
+            <category term="Bài viết của tôi"/>
+
+        <updated>2024-12-29T20:56:32+07:00</updated>
+            <summary>
+                <![CDATA[
+                    Là một trong những ngôn ngữ lập trình hướng đối tượng (OOP), Java cung cấp các tính chất OOP mạnh mẽ giúp các lập trình&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <figure class="post__image"><img loading="lazy"  src="https://johnxiaonathangnguyen.github.io/Blog/media/posts/44/oop.jpg" alt="" width="800" height="500" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://johnxiaonathangnguyen.github.io/Blog/media/posts/44/responsive/oop-xs.jpg 300w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/44/responsive/oop-sm.jpg 480w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/44/responsive/oop-md.jpg 768w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/44/responsive/oop-lg.jpg 1024w"></figure>
+<p>Là một trong những ngôn ngữ lập trình hướng đối tượng (OOP), Java cung cấp các tính chất OOP mạnh mẽ giúp các lập trình viên phát triển các ứng dụng phức tạp. Trong bài viết này, hãy cùng <a href="https://rikkei.edu.vn/"><strong>Rikkei Academy</strong></a> tìm hiểu về 4 tính chất OOP Java bao gồm: tính kế thừa, tính đa hình, tính đóng gói và tính trừu tượng.</p>
+<p><strong>OPP là gì?</strong></p>
+<p>Lập trình hướng đối tượng (OOP) là một mô hình lập trình tập trung vào sử dụng “đối tượng” để biểu diễn và thao tác dữ liệu. OPP giúp giải quyết các vấn đề phức tạp trong lập trình bằng cách chia các vấn đề thành các đối tượng nhỏ hơn và dễ quản lý hơn.</p>
+<p>Trong OOP, dữ liệu được đóng gói trong các đối tượng và các đối tượng được xác định bởi các thuộc tính (attributes) và hành vi (methods) của chúng. Ở đây, chúng ta sẽ đi sâu vào 4 tính chất OOP của Java bao gồm trừu tượng (abstraction), đóng gói (Encapsulation), kế thừa (Inheritance) và đa hình (Polymorrphism).</p>
+<p><strong>Tính kế thừa (Inheritance)</strong></p>
+<p>Tình chất đầu tiên trong 4 tính chất OOP Java chính là tính kế thừa. Tính kế thừa cho phép xây dựng các lớp mới trên cơ sở của lớp hiện có. Lớp mới (con) sẽ được kế thừa các thuộc tính và phương thức của lớp cha. Nó tương tự một đứa trẻ sẽ kế thừa các đặc điểm như màu da, màu tóc, cách nói chuyện…của cha mẹ.</p>
+<figure class="post__image"><img loading="lazy"  src="https://johnxiaonathangnguyen.github.io/Blog/media/posts/44/family.jpg" alt="" width="800" height="500" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://johnxiaonathangnguyen.github.io/Blog/media/posts/44/responsive/family-xs.jpg 300w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/44/responsive/family-sm.jpg 480w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/44/responsive/family-md.jpg 768w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/44/responsive/family-lg.jpg 1024w"></figure>
+<p>Việc sử dụng kế thừa giúp tiết kiệm thời gian và nỗ lực trong việc lập trình và giảm thiểu lỗi lặp lại. Nó cũng giúp tăng tính tái sử dụng của mã lập trình.</p>
+<p><strong>Tính kế thừa thể hiện trong Java</strong></p>
+<p>Trong Java, để kế thừa các thuộc tính và phương thức của một lớp cha, chúng ta sử dụng từ khóa “extends” khi khai báo lớp con. Ví dụ:</p>
+<table width="1009">
+<tbody>
+<tr>
+<td width="999">
+<p><code>class Animal {</code></p>
+<p><code>// các thuộc tính và phương thức của lớp Animal</code></p>
+<p><code>}</code></p>
+<p><code>class Dog extends Animal {</code></p>
+<p><code>// các thuộc tính và phương thức của lớp Dog</code></p>
+<p><code>}</code></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Ta có lớp Animal với các thuộc tính và phương thức chung cho các loài động vật, chúng ta tạo lớp Dog kế thừa từ lớp Animal thông qua từ khóa “extends”. Các lớp con này có các thuộc tính và phương thức riêng của chúng, nhưng vẫn có các thuộc tính và phương thức chung được kế thừa từ lớp cha Animal.</p>
+<p>Lưu ý: Ngoài ra việc sử dụng từ khóa “extends”, chúng ta có thể sử dụng Interface trong Java để đạt được tính kế thừa.</p>
+<p><strong>Tính đa hình (Polymorphism)</strong></p>
+<p>Tính đa hình (Polymorphism) là khả năng của đối tượng (object) thể hiện các hành vi khác nhau khi được gọi bằng cùng một phương thức. Nó cho phép các đối tượng của các lớp khác nhau có thể đáp ứng một cách khác nhau với cùng một phương thức. Ví dụ, một người với việc di chuyển thì họ có thể lựa chọn đi bộ, chạy hay ngồi phương tiện.</p>
+<p>Tính đa hình giúp làm giảm sự phức tạp của mã lập trình, tăng tính linh hoạt của chương trình và giảm thiểu lỗi lặp lại.</p>
+<p><strong>Tính đa hình thể hiện trong Java</strong></p>
+<p>Trong Java, tính đa hình được thể hiện thông qua việc sử dụng phương thức ghi đè (override) và nạp chồng (overload):</p>
+<ul>
+<li>Trong ghi đè (override), lớp con thay đổi lại một phương thức đã được định nghĩa trong lớp cha. Khi một đối tượng của lớp con gọi phương thức đó, nó sẽ thực thi phương thức mới của lớp con thay vì phương thức cũ của lớp cha.</li>
+<li>Trong nạp chồng (overload), một phương thức duy nhất có thể thực hiện các chức năng khác nhau tùy thuộc vào ngữ cảnh trong đó nó được gọi.</li>
+<li>Sử dụng đối tượng đa hình (Polymorphic Objects), biến thuộc lớp cha có thể tham chiếu đến đối tượng của lớp con, khiến biến thuộc lớp cha cũng có thể đáp ứng với các phương thức của lớp con.</li>
+</ul>
+<p>Ví dụ: Ở đây, chúng ta có một phương thức makeSound() trong lớp Animal, và các lớp con Dog ghi đè phương thức này để cài đặt tiếng kêu riêng của chúng.</p>
+<table width="1009">
+<tbody>
+<tr>
+<td width="999">
+<p><code>class Animal {</code></p>
+<p><code>public void makeSound() {</code></p>
+<p><code>System.out.println(“The animal makes a sound”);</code></p>
+<p><code>}</code></p>
+<p><code>}</code></p>
+<p><code>class Dog extends Animal {</code></p>
+<p><code>@Override</code></p>
+<p><code>public void makeSound() {</code></p>
+<p><code>System.out.println(“The dog barks”);</code></p>
+<p><code>super.makeSound(); // gọi phương thức makeSound() của lớp cha</code></p>
+<p><code>}</code></p>
+<p><code>}</code></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Tính đóng gói (Encapsulation)</strong></p>
+<p>Tính đóng gói (Encapsulation) cho phép chúng ta giấu thông tin của đối tượng và chỉ cho phép các phương thức được định nghĩa trong lớp đó mới có thể truy cập và sử dụng các thuộc tính và phương thức đó. Nó giúp che dấu và bảo vệ dữ liệu bên trong đối tượng khỏi truy cập trực tiếp từ bên ngoài. Điều này giúp giảm thiểu sự phụ thuộc giữa các đối tượng và tăng tính bảo mật cho chương trình.</p>
+<p>Ví dụ, mỗi người đều có thông tin cá nhân và để tránh sự xâm nhập của người không liên quan, chúng ta sẽ đóng gói thông tin của mình vào một nơi và bảo mật bằng cách đặt mật khẩu.</p>
+<p><strong>Tính đóng gói thể hiện trong Java</strong></p>
+<p>Trong Java, tính đóng gói được thực hiện bằng cách sử dụng các từ khóa truy cập (access modifiers), điều khiển khả năng nhìn thấy của biến và phương thức trong một lớp. Ba từ khóa truy cập trong Java bao gồm:</p>
+<ul>
+<li>Public: Các biến và phương thức công khai (public) có thể truy cập từ bất kỳ đâu, bao gồm bên ngoài lớp.</li>
+<li>Private: Các biến và phương thức riêng tư (private) chỉ có thể truy cập trong lớp mà chúng được định nghĩa.</li>
+<li>Protected: Các biến và phương thức được bảo vệ (protected) có thể truy cập được trong cùng lớp và các lớp con của nó.</li>
+</ul>
+<p>Ví dụ:</p>
+<table width="995">
+<tbody>
+<tr>
+<td width="985">
+<p><code>class Person {</code></p>
+<p><code>private String name;</code></p>
+<p><code>public String getName() {</code></p>
+<p><code>return name;</code></p>
+<p><code>}</code></p>
+<p><code>public void setName(String name) {</code></p>
+<p><code>this.name = name;</code></p>
+<p><code>}</code></p>
+<p><code>}</code></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Tính trừu tượng (Abstraction)</strong></p>
+<p>Trừu tượng là tính chất cuối cùng trong 4 tính chất OOP Java chúng ta tìm hiểu trong bài viết này. Tính trừu tượng cho phép chúng ta tạo ra các lớp trừu tượng mà không cần cung cấp các triển khai cụ thể cho các phương thức của chúng. Ví dụ, chúng ta có thể mô tả một chiếc xe dựa trên màu sắc, hiệu xe và số chỗ ngồi mà không cần biết chi tiết về cấu tạo bên trong của xe.</p>
+<figure class="post__image"><img loading="lazy"  src="https://johnxiaonathangnguyen.github.io/Blog/media/posts/44/car.jpg" alt="" width="800" height="500" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://johnxiaonathangnguyen.github.io/Blog/media/posts/44/responsive/car-xs.jpg 300w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/44/responsive/car-sm.jpg 480w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/44/responsive/car-md.jpg 768w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/44/responsive/car-lg.jpg 1024w"></figure>
+<p>Việc sử dụng tính trừu tượng giúp tăng tính linh hoạt của chương trình, cho phép chúng ta dễ dàng thay đổi hoặc thêm mới các phương thức mà không ảnh hưởng đến các lớp khác trong chương trình. Nó cũng giúp giảm sự phức tạp của mã lập trình bằng cách tập trung vào các hành động cần thiết của đối tượng mà không cần quan tâm đến các chi tiết cài đặt cụ thể.</p>
+<p><strong>Tính trừu tượng thể hiện trong Java</strong></p>
+<p>Bạn có thể đạt được trừu tượng thông qua hai cơ chế chính:</p>
+<ul>
+<li><a href="https://rikkei.edu.vn/abstract-class-trong-java/"><strong>Abstract class trong Java</strong></a>(Lớp trừu tượng) giúp đạt được tính trừu tượng từ 0 đến 100%.</li>
+<li><a href="https://rikkei.edu.vn/interface-trong-java/"><strong>Interfaces trong Java</strong></a>(giao diện) giúp đạt tính trừu tượng đến 100%.</li>
+</ul>
+<p>Ví dụ:</p>
+<table width="981">
+<tbody>
+<tr>
+<td width="973">
+<p><code>abstract class Shape {</code></p>
+<p><code>protected int x;</code></p>
+<p><code>protected int y;</code></p>
+<p><code>public Shape(int x, int y) {</code></p>
+<p><code>this.x = x;</code></p>
+<p><code>this.y = y;</code></p>
+<p><code>}</code></p>
+<p><code>public abstract void draw();</code></p>
+<p><code>}</code></p>
+<p><code>class Circle extends Shape {</code></p>
+<p><code>private int radius;</code></p>
+<p><code>public Circle(int x, int y, int radius) {</code></p>
+<p><code>super(x, y);</code></p>
+<p><code>this.radius = radius;</code></p>
+<p><code>}</code></p>
+<p><code>@Override</code></p>
+<p><code>public void draw() {</code></p>
+<p><code>System.out.println(“Drawing a circle at (” + x + “, ” + y + “) with radius ” + radius);</code></p>
+<p><code>}</code></p>
+<p><code>}</code></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Trên đây là 4 tính chất OOP Java cốt lõi, việc sở hữu các tính chất của ngôn ngữ lập trình hướng đối tượng giúp quá trình phát triển phần mềm bằng ngôn ngữ Java trở nên dễ dàng và tiết kiệm thời gian hơn.</p>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Java Debugging: Cẩm nang gỡ lỗi toàn tập</title>
+        <author>
+            <name>nguyenducthang</name>
+        </author>
+        <link href="https://johnxiaonathangnguyen.github.io/Blog/java-debugging-cam-nang-go-loi-toan-tap.html"/>
+        <id>https://johnxiaonathangnguyen.github.io/Blog/java-debugging-cam-nang-go-loi-toan-tap.html</id>
+            <category term="Bài viết của tôi"/>
+
+        <updated>2024-12-29T20:53:32+07:00</updated>
+            <summary>
+                <![CDATA[
+                    Debug là kỹ năng thiết yếu cho mọi lập trình viên Java, giúp bạn kiểm tra và giải quyết các vấn đề trong mã nguồn. Từ&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p><a href="https://bizflycloud.vn/tin-tuc/debug-la-gi-20240501000614885.htm">Debug</a> là kỹ năng thiết yếu cho mọi lập trình viên Java, giúp bạn kiểm tra và giải quyết các vấn đề trong mã nguồn. Từ lỗi logic, crash bất ngờ cho đến tr bottlenecks về hiệu suất, việc nắm vững cách debug hiệu quả ứng dụng Java là vô cùng quan trọng.</p>
+<p><strong>Tìm hiểu về Debug - Khái niệm cơ bản cho lập trình viên</strong></p>
+<p>Debug là quá trình xác định, phân tích và sửa lỗi trong mã nguồn phần mềm. Trong Java, lỗi có thể từ lỗi cú pháp (phát hiện lúc biên dịch) đến lỗi logic (phát hiện lúc chạy), bottlenecks về hiệu suất hoặc sự cố chỉ xảy ra trong điều kiện cụ thể. Java Virtual Machine (JVM) cung cấp một số tính năng debug, và hầu hết các IDE hiện đại, chẳng hạn như IntelliJ IDEA và Eclipse, đều cung cấp các công cụ debug tích hợp giúp lập trình viên kiểm tra hoạt động của ứng dụng trong thời gian chạy.</p>
+<p><strong>Các công cụ Debug Java phổ biến - Hỗ trợ đắc lực cho lập trình viên</strong></p>
+<p>Dưới đây là một số công cụ debug Java phổ biến mà bạn có thể tham khảo:</p>
+<ul>
+<li>IntelliJ IDEA: Cung cấp trình debug mạnh mẽ với các tính năng như breakpoint, kiểm tra biến, thực thi từng bước và debug từ xa.</li>
+<li>Eclipse IDE: Một IDE Java được sử dụng rộng rãi với khả năng debug mạnh mẽ bao gồm thay thế mã nóng, debug luồng và đánh giá biểu thức.</li>
+<li>JDB (Java Debugger): Một công cụ dòng lệnh được cung cấp bởi JDK cho phép bạn debug các ứng dụng Java trong môi trường không có giao diện đồ họa.</li>
+<li>VisualVM: Một công cụ giám sát và debug có thể cấu hình ứng dụng và phân tích việc sử dụng bộ nhớ.</li>
+<li>JProfiler: Một công cụ cấu hình và debug thương mại để giám sát hiệu suất và phân tích bộ nhớ trong các ứng dụng Java.</li>
+<li>JConsole: Được sử dụng để giám sát số liệu hiệu suất JVM và phát hiện các sự cố như rò rỉ bộ nhớ.</li>
+</ul>
+<p><strong>Debug cơ bản trong IDE - Hướng dẫn chi tiết từ A - Z</strong></p>
+<ol>
+<li><strong> Đặt Breakpoint - Dừng mã nguồn tại vị trí mong muốn</strong></li>
+</ol>
+<p>Breakpoint tạm dừng việc thực thi chương trình của bạn tại một dòng cụ thể, cho phép bạn kiểm tra trạng thái của ứng dụng tại thời điểm đó.</p>
+<p><strong>Cách đặt Breakpoint:</strong></p>
+<ul>
+<li>Trong IntelliJ IDEA: Nhấp vào gutter bên cạnh số dòng nơi bạn muốn đặt breakpoint. Một chấm đỏ cho biết breakpoint.</li>
+<li>Trong Eclipse: Tương tự, hãy nhấp vào lề trái của trình chỉnh sửa mã bên cạnh dòng bạn muốn tạm dừng.</li>
+</ul>
+<p>Khi quá trình thực thi đến breakpoint, IDE sẽ tạm dừng chương trình, cho phép bạn khám phá trạng thái hiện tại của các biến và luồng chương trình.</p>
+<ol start="2">
+<li><strong> Thực thi từng bước - Kiểm soát hoạt động của mã nguồn</strong></li>
+</ol>
+<p>Sau khi quá trình thực thi dừng tại một breakpoint, bạn có thể thực thi từng bước mã của mình để hiểu luồng của nó:</p>
+<ul>
+<li>Step Over: Di chuyển đến dòng tiếp theo trong cùng một phương thức, bỏ qua các lệnh gọi phương thức.</li>
+<li>Step Into: Vào phương thức hoặc hàm đang được gọi.</li>
+<li>Step Out: Thoát khỏi phương thức hiện tại và quay lại người gọi.</li>
+</ul>
+<ol start="3">
+<li><strong> Kiểm tra biến - Theo dõi biến trong quá trình Debug</strong></li>
+</ol>
+<p>Khi quá trình thực thi chương trình bị tạm dừng, bạn có thể kiểm tra giá trị của các biến tại thời điểm đó.</p>
+<ul>
+<li>Trong hầu hết các IDE, bạn có thể di chuột qua các biến để xem giá trị hiện tại của chúng.</li>
+<li>IDE cũng cung cấp Ngăn Biến nơi bạn có thể kiểm tra tất cả các biến trong phạm vi hiện tại, bao gồm các biến cục bộ và các thành viên của lớp.</li>
+</ul>
+<ol start="4">
+<li><strong> Theo dõi và biểu thức - Giám sát sự thay đổi của biến</strong></li>
+</ol>
+<p>Bạn cũng có thể tạo watches để theo dõi giá trị của các biểu thức hoặc biến cụ thể. Điều này hữu ích khi bạn muốn quan sát cách một biến thay đổi khi mã thực thi.</p>
+<p><strong>Debug từ xa - Xử lý sự cố trên Server từ xa</strong></p>
+<p>Debug từ xa cho phép bạn debug các ứng dụng đang chạy trên một máy hoặc môi trường khác (ví dụ: máy chủ sản xuất) bằng cách kết nối IDE của bạn với JVM từ xa.</p>
+<p><strong>Các bước để bật Debug từ xa:</strong></p>
+<p>Đầu tiên, bạn cần thêm các tùy chọn JVM sau vào ứng dụng bạn muốn debug từ xa:</p>
+<p><code>   -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=5005</code></p>
+<p>Trong đó:</p>
+<ul>
+<li>address=5005: Đây là cổng mà trình debug sẽ nghe.</li>
+<li>suspend=n: Đặt thành y sẽ khiến JVM đợi cho đến khi trình debug được đính kèm trước khi tiếp tục thực thi.</li>
+</ul>
+<p>Tiếp theo, trong IDE của bạn (IntelliJ hoặc Eclipse):</p>
+<ul>
+<li>Tạo cấu hình Debug từ xa.</li>
+<li>Chỉ định máy chủ và cổng (ví dụ: localhost:5005).</li>
+<li>Bắt đầu phiên debug từ xa trong IDE.</li>
+</ul>
+<p>Điều này cho phép bạn kiểm tra, đặt breakpoint và thực thi từng bước mã như thể nó đang chạy cục bộ.</p>
+<p><strong>Debug với nhật ký (Logs) - Ghi lại hoạt động của ứng dụng</strong></p>
+<p>Ghi nhật ký là một trong những cách phổ biến và hiệu quả nhất để debug ứng dụng, đặc biệt là trong môi trường sản xuất, nơi không thể đính kèm trình debug. Java cung cấp các framework ghi nhật ký sau:</p>
+<ul>
+<li>Log4j: Một thư viện ghi nhật ký phổ biến cho phép bạn xuất nhật ký ở các mức độ khác nhau (INFO, DEBUG, WARN, ERROR).</li>
+<li>SLF4J: Một facade ghi nhật ký hoạt động với nhiều backend khác nhau như Log4j và Logback.</li>
+<li>java.util.logging: API ghi nhật ký tích hợp sẵn của Java.</li>
+</ul>
+<p>Ví dụ sử dụng với SLF4J:</p>
+<p><code>import org.slf4j.Logger;</code></p>
+<p><code>import org.slf4j.LoggerFactory;</code></p>
+<p> </p>
+<p><code>public class MyClass {</code></p>
+<p><code>    private static final Logger logger = LoggerFactory.getLogger(MyClass.class);</code></p>
+<p> </p>
+<p><code>    public static void main(String[] args) {</code></p>
+<p><code>        logger.info("Application started");</code></p>
+<p><code>        logger.debug("Debugging value: {}", someVariable);</code></p>
+<p><code>        logger.error("An error occurred", exception);</code></p>
+<p><code>    }</code></p>
+<p><code>}</code></p>
+<p>Ghi nhật ký giúp bạn theo dõi hoạt động của ứng dụng mà không cần phải dừng ứng dụng hoặc đính kèm trình debug.</p>
+<p><strong>Các kỹ thuật Debug nâng cao - Nâng cao hiệu quả Debug</strong></p>
+<ol>
+<li><strong> Breakpoint ngoại lệ - Xác định nguyên nhân gây ra ngoại lệ</strong></li>
+</ol>
+<p>Breakpoint ngoại lệ tạm dừng quá trình thực thi khi một loại ngoại lệ cụ thể được ném ra, bất kể nó xảy ra ở đâu trong mã. Điều này hữu ích để xác định vị trí và lý do tại sao một số ngoại lệ nhất định được đưa ra.</p>
+<p>Trong hầu hết các IDE (như IntelliJ hoặc Eclipse):</p>
+<ul>
+<li>Đi tới chế độ xem Breakpoint.</li>
+<li>Thêm Breakpoint Ngoại Lệ cho một ngoại lệ cụ thể, chẳng hạn như NullPointerException.</li>
+</ul>
+<ol start="2">
+<li><strong> Breakpoint có điều kiện - Kiểm soát điểm dừng chính xác hơn</strong></li>
+</ol>
+<p>Đôi khi bạn chỉ muốn tạm dừng quá trình thực thi khi một số điều kiện nhất định được đáp ứng. Breakpoint có điều kiện cho phép bạn chỉ định các điều kiện (ví dụ: giá trị biến hoặc trạng thái) mà theo đó quá trình thực thi sẽ dừng lại.</p>
+<p>Cách đặt breakpoint có điều kiện:</p>
+<ul>
+<li>Nhấp chuột phải vào breakpoint và thêm một điều kiện, chẳng hạn như x == 5. Chương trình sẽ chỉ dừng khi điều kiện này là đúng.</li>
+</ul>
+<ol start="3">
+<li><strong> Thay thế mã nóng (HCR) - Cập nhật mã nguồn không cần khởi động lại</strong></li>
+</ol>
+<p>Thay thế mã nóng cho phép bạn sửa đổi và áp dụng các thay đổi cho mã của mình trong phiên debug mà không cần khởi động lại ứng dụng. Điều này đặc biệt hữu ích trong các ứng dụng chạy lâu hoặc môi trường mà việc khởi động lại thường xuyên gây gián đoạn.</p>
+<p>Hầu hết các IDE, như IntelliJ và Eclipse, đều hỗ trợ HCR khi debug. Tuy nhiên, nó có những hạn chế: bạn không thể sửa đổi cấu trúc lớp (ví dụ: thêm phương thức mới hoặc thay đổi hệ thống phân cấp lớp).</p>
+<ol start="4">
+<li><strong> Debug luồng - Kiểm soát luồng trong ứng dụng đa luồng</strong></li>
+</ol>
+<p>Các ứng dụng Java có thể có nhiều luồng chạy đồng thời và debug các ứng dụng đa luồng có thể phức tạp. Trong cửa sổ Debugger của IDE, bạn có thể:</p>
+<ul>
+<li>Kiểm tra tất cả các luồng đang chạy.</li>
+<li>Tạm dừng, tiếp tục hoặc kết thúc các luồng riêng lẻ.</li>
+<li>Đặt breakpoint dành riêng cho một luồng để phân tích hoạt động cụ thể của luồng.</li>
+</ul>
+<p><strong>Thực hành tốt nhất để Debug ứng dụng Java hiệu quả</strong></p>
+<ul>
+<li>Tái tạo sự cố: Trước khi debug, hãy đảm bảo rằng bạn có thể tái tạo sự cố một cách nhất quán. Điều này giúp bạn dễ dàng theo dõi vấn đề hơn.</li>
+<li>Sử dụng nhật ký: Ngay cả khi sử dụng trình debug, nhật ký cung cấp lịch sử có giá trị về các sự kiện, đặc biệt là khi bạn đang xử lý các sự cố trong môi trường sản xuất hoặc đa luồng.</li>
+<li>Bắt đầu với breakpoint đơn giản: Đừng đặt quá nhiều breakpoint lúc đầu. Hãy bắt đầu bằng cách tập trung vào các khu vực quan trọng của mã, nơi bạn nghi ngờ sự cố bắt nguồn.</li>
+<li>Sử dụng breakpoint có điều kiện: Tránh dừng chương trình một cách không cần thiết bằng cách sử dụng các điều kiện trên breakpoint để chỉ tạm dừng quá trình thực thi khi một số tiêu chí nhất định được đáp ứng.</li>
+<li>Đừng lạm dụng debug: Debug có thể tốn thời gian. Đôi khi, lùi lại một bước và xem xét mã của bạn một cách logic hoặc sử dụng các bài kiểm tra có thể giúp bạn xác định sự cố nhanh hơn.</li>
+<li>Tập trung vào các trường hợp Edge: Lỗi thường phát sinh trong các trường hợp Edge, chẳng hạn như xử lý giá trị null, lỗi ngoài giới hạn hoặc sự cố đồng bộ hóa luồng.</li>
+</ul>
+<p>Cảm ơn các bạn đã theo dõi!!!</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Stream Xử Lý Dữ Liệu Thế Nào Trong Java</title>
+        <author>
+            <name>nguyenducthang</name>
+        </author>
+        <link href="https://johnxiaonathangnguyen.github.io/Blog/stream-xu-ly-du-lieu-the-nao-trong-java.html"/>
+        <id>https://johnxiaonathangnguyen.github.io/Blog/stream-xu-ly-du-lieu-the-nao-trong-java.html</id>
+            <category term="Bài viết của tôi"/>
+
+        <updated>2024-12-29T20:52:16+07:00</updated>
+            <summary>
+                <![CDATA[
+                    Sự ra đời của Java 8 đã làm thay đổi thói quen sử dụng của nhiều người lập trình đối với các Collection so với&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p><strong>Sự ra đời của Java 8 đã làm thay đổi thói quen sử dụng của nhiều người lập trình đối với các Collection so với các phiên bản Java trước. Một trong những điều mới mẻ nhất chính là thêm các phương thức mở rộng vào các interface có sẵn (Collection, List, Iterable) cùng các lớp abstraction như Stream để thực hiện các phép toán tổng hợp trên tập dữ liệu và không làm thay đổi dữ liệu cũ. Trong bài viết này chúng ta sẽ tìm hiểu về Stream là gì và các đặc điểm của nó.</strong></p>
+<ol>
+<li><strong> Stream là gì?</strong></li>
+</ol>
+<p>Stream được giới thiệu từ bản <a href="https://codelearn.io/sharing/tao-chuong-trinh-java-don-gian-voi-jdk">java</a> 8 và được nằm trong gói java.util.stream. Stream đại diện cho một chuỗi các giá trị và phục vụ nhiều chức năng tổng hợp để thao tác với dữ liệu như duyệt, tìm giá trị lớn (bé) nhất, sorting, filter, hay limit. Stream có rất nhiều methods đa dạng và chúng có thể được kết hợp với nhau, một vài trong số chúng trả về kiểu Stream được gọi là intermediate operations và một số khác trả về kiểu non-stream(int, long, list, arrays,…) được gọi là terminal operations.</p>
+<p>Một ví dụ là khi bạn muốn sắp xếp các giá trị trong một mảng thì thay vì phải viết các vòng lặp for hoặc while, bạn chỉ cần dùng một hay một vài phương thức của stream một cách ngắn gọn và đơn giản.</p>
+<p><strong>Các tính chất của Stream:</strong></p>
+<ul>
+<li>Stream không phải là một cấu trúc dữ liệu, đầu vào của Stream có thể là các Colllections (<a href="https://codelearn.io/sharing/tai-sao-nen-dung-arraylist">Arraylist</a>, Set, <a href="https://codelearn.io/sharing/khac-biet-giua-array-linkedlist">LinkedList</a>,…), Arrays và các kênh Input/Output.</li>
+<li>Stream không làm thay đổi dữ liệu gốc mà chỉ trả về kết quả thông qua các methods.</li>
+<li>Về cơ bản các method của stream được phân làm 2 loại là hoạt động trung gian(Intermediate Operation) và hoạt động đầu cuối(Terminal Operation).</li>
+</ul>
+<p>Sau đây là một ví dụ về Stream:</p>
+<p><code>Collection&lt;Integer&gt; collection = Arrays.asList(1,2,3);</code></p>
+<p><code>Stream&lt;Integer&gt; streamOfCollection = collection.stream();</code></p>
+<ol start="2">
+<li><strong> Các methods trong Stream</strong></li>
+</ol>
+<p><strong>2.1 Terminal Operations</strong></p>
+<p>Các hoạt động đầu cuối này gồm các method có kiểu trả về khác stream như kiểu nguyên thủy(primitive), đối tượng(String, Integer,…) hay collections.</p>
+<p><strong>Collect</strong> method: Dùng để trả về kết quả của stream dưới dạng List hoặc Set.</p>
+<p><code>public static void main(String[] args) {</code></p>
+<p><code>      List&lt;String&gt; strings = Arrays.asList("args", "", "code", "learn", "...");</code></p>
+<p><code>      List&lt;String&gt; filter = strings.stream().collect(Collectors.toList());</code></p>
+<p><code>      System.out.println(filter);</code></p>
+<p><code>  }</code></p>
+<p>Ouput:</p>
+<p><code><strong>forEach</strong> method: Dùng để duyệt qua mọi phần tử trong stream.</code></p>
+<p><code>public static void main(String[] args) {</code></p>
+<p><code>      List&lt;String&gt; strings = Arrays.asList("args", "", "code", "learn", "...");</code></p>
+<p><code>      strings.stream().forEach(s -&gt; System.out.println(s));</code></p>
+<p><code>  }</code></p>
+<p>Output:</p>
+<p> </p>
+<p><strong>Reduce</strong> method: Reduce() method với 1 trong 2 tham số truyền vào là method reference, dùng dể kết hợp các phần tử thành một giá trị đơn cùng kiểu với dữ liệu ban đầu.</p>
+<p><code>public static void main(String[] args) {</code></p>
+<p><code>      List&lt;String&gt; strings = Arrays.asList("args", "", "code", "learn", "...");</code></p>
+<p><code>      String result = strings.stream().reduce("-", String::concat);</code></p>
+<p><code>      System.out.println(result);</code></p>
+<p><code>  }</code></p>
+<p>Tham số đầu tiên là chỉ giá trị ban đầu, tham số thứ hai là một method reference String::concat nhằm mục đích ghép các phần tử của Stream với nhau.</p>
+<p>Output:</p>
+<p><strong>Max, Min</strong> method: Trả về giá trị lớn nhất hoặc bé nhất trong các phần tử.</p>
+<p><code>public static void main(String[] args) {</code></p>
+<p><code>      List&lt;Integer&gt; list = Arrays.asList(1,2,3,4,5,6,7,8,9,10);</code></p>
+<p><code>      Integer maxx = list.stream().max(Integer::compare).get();</code></p>
+<p><code>      Integer minn = list.stream().min(Integer::compare).get();</code></p>
+<p><code>      System.out.println("Max: "+maxx+"\nMin: "+minn);</code></p>
+<p><code>  }</code></p>
+<p>Output:</p>
+<p><strong>2.2 Intermediate Operations</strong></p>
+<p>Mỗi hoạt động trung gian này được thực thi một cách riêng biệt và có kết quả trả về cũng là một Stream do đó ta có thể kết hợp nhiều intermediate methods với nhau. Sau đây là một vài intermediate method:</p>
+<p><strong>Distinct</strong> method: Được dùng để loại bỏ các phần tử trùng lặp.</p>
+<p><code>public static void main(String[] args) {</code></p>
+<p><code>      List&lt;Integer&gt; list = Arrays.asList(1,2,2,2,2,3,4,5);</code></p>
+<p><code>      list.stream().distinct().forEach(System.out::println);</code></p>
+<p><code>  }</code></p>
+<p>Output: các số 2 trùng lặp đã được loại bỏ</p>
+<p><strong>Map</strong> method: Map method được sử dụng để trả về một stream mà ở đó các phần tử đã  được thay đổi theo cách người dùng tự định nghĩa.</p>
+<p><code>public static void main(String[] args) {</code></p>
+<p><code>      List&lt;Integer&gt; list = Arrays.asList(1,2,2,2,2,3,4,5);</code></p>
+<p><code>      list.stream().distinct().map(i -&gt; i*i).forEach(System.out::println);</code></p>
+<p><code>  }</code></p>
+<p>Output: bình phương của các phần tử</p>
+<p><strong>Filter</strong> method: Dùng để lọc và xóa bỏ các phần tử với điều kiện do người dùng định nghĩa.</p>
+<p><code>public static void main(String[] args) {</code></p>
+<p><code>      List&lt;Integer&gt; list = Arrays.asList(1,2,2,2,2,3,4,5);</code></p>
+<p><code>      list.stream().distinct().map(i-&gt;i*i).forEach(System.out::println);</code></p>
+<p> </p>
+<p><code>  }</code></p>
+<p>Output: các phần tử lớn hơn 2</p>
+<p><strong>Sorted</strong> method: Dùng cho việc sắp xếp các phần tử.</p>
+<p><code>public static void main(String[] args) {</code></p>
+<p><code>      List&lt;Integer&gt; list = Arrays.asList(4,3,2,1,0,3,4,5);</code></p>
+<p><code>      list.stream().sorted().forEach(System.out::println);</code></p>
+<p><code>  }</code></p>
+<p>Output: các phần tử được sắp xếp theo thứ tự tăng dần.</p>
+<p><strong>Limit</strong> method: limit(n) với tham số đầu vào là số nguyên không âm n nó sẽ trả về một stream chứa n phần tử đầu tiên.</p>
+<p><code>public static void main(String[] args) {</code></p>
+<p><code>      List&lt;Integer&gt; list = Arrays.asList(4,3,2,1,0,3,4,5);</code></p>
+<p><code>      list.stream().limit(3).forEach(System.out::println);</code></p>
+<p><code>  }</code></p>
+<p>Output: lấy ra 3 phần tử đầu tiên.</p>
+<p><strong>Skip</strong> method: skip(n) với tham số truyền vào là số nguyên không âm n nó sẽ trả về các phần tử còn lại đằng sau n phần tử đầu tiên.</p>
+<p>    <code>List&lt;Integer&gt; list = Arrays.asList(4,3,2,1,0,3,4,5);</code></p>
+<p><code>      list.stream().skip(3).forEach(System.out::println);</code></p>
+<p><code>  }</code></p>
+<p>Output: In ra các phần tử trừ 3 phần tử đầu tiên.</p>
+<ol start="3">
+<li><strong> Parallel Stream</strong></li>
+</ol>
+<p>ParallelStream là một sự thay thế của stream để phục vụ cho việc xử lý song song các phần tử. Kết quả của đoạn code sau thể hiện sự khác nhau giữa Stream và Parallel Stream.</p>
+<p><code>public static void main(String[] args) {</code></p>
+<p><code>      List&lt;String&gt; strings = Arrays.asList("code", "learn", "...");</code></p>
+<p><code>      String streamString = strings.stream().reduce(" I'm-", String::concat);</code></p>
+<p><code>      String parallelString = strings.parallelStream().reduce(" I'm-", String::concat);</code></p>
+<p><code>      System.out.println("Stream: "+streamString +"\nParallelStream: "+parallelString);</code></p>
+<p><code>  }</code></p>
+<p>Output:</p>
+<p>Các bạn có thể thấy rằng parallelStream() đã thực hiện intermediate method song song với tất cả các phần tử cùng một lúc nên trước các phần tử đều có chuỗi kí tự " I'm".</p>
+<p><strong>Chú ý:</strong></p>
+<ul>
+<li>Thực chất các intermediate method không hoạt động khi chúng ta gọi đến mà chỉ thực thi khi có một terminal method kết thúc stream của nó.</li>
+<li>Một luồng hay một stream có thể không có hoặc có nhiều intermediate method kết hợp với nhau nhưng chỉ bao gồm một terminal method để xử lý stream được trả về từ các intermediate method bên trên.</li>
+<li>Stream được sử dụng để trả về kết quả các phần tử sau khi được xử lý thông qua các method mà không làm thay đổi giá trị các phần tử gốc.</li>
+</ul>
+<p><strong>Kết</strong></p>
+<p>Qua bài viết mình và các bạn đã tìm hiểu qua về Stream trong java, thực tế stream còn rất nhiều ứng dụng khác mà các bạn có thể dễ dàng tìm hiểu thêm trên internet. Nếu bài viết có ý nghĩa hãy để lại đánh giá cũng như comment giúp phát triển bài viết tốt hơn. Cảm ơn bạn đọc!</p>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>HƯỚNG DẪN CODE JAVA CHUẨN XÁC</title>
+        <author>
+            <name>nguyenducthang</name>
+        </author>
+        <link href="https://johnxiaonathangnguyen.github.io/Blog/huong-dan-code-java-chuan-xac.html"/>
+        <id>https://johnxiaonathangnguyen.github.io/Blog/huong-dan-code-java-chuan-xac.html</id>
+            <category term="Bài viết của tôi"/>
+
+        <updated>2024-12-29T20:49:45+07:00</updated>
+            <summary>
+                <![CDATA[
+                    Java đã có những phát triển để trở thành một trong những ngôn ngữ lập trình phổ biến nhất trên thế giới. Java khá linh&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <figure class="post__image"><img loading="lazy"  src="https://johnxiaonathangnguyen.github.io/Blog/media/posts/41/java.jpg" alt="" width="900" height="560" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://johnxiaonathangnguyen.github.io/Blog/media/posts/41/responsive/java-xs.jpg 300w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/41/responsive/java-sm.jpg 480w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/41/responsive/java-md.jpg 768w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/41/responsive/java-lg.jpg 1024w"></figure>
+<p>Java đã có những phát triển để trở thành một trong những ngôn ngữ lập trình phổ biến nhất trên thế giới. Java khá linh hoạt, tương đối dễ sử dụng và được sử dụng trong nhiều trường hợp. Điều này cho thấy Java là một ngôn ngữ tuyệt vời để học - cho cả những lập trình viên mới bắt đầu và có kinh nghiệm - dẫn đến nhu cầu học cách code Java.</p>
+<p>Mục đích của hướng dẫn lập trình Java này là cung cấp một giới thiệu về Java cơ bản và lập trình Java. Chúng ta sẽ tìm hiểu lý do tại sao bạn nên học lập trình Java cơ bản, các công cụ bạn cần để code Java và một vài điều đơn giản hỗ trợ bạn trong quá trình học.</p>
+<p>Nếu không còn thắc mắc nào, hãy bắt đầu xem hướng dẫn code Java này ngay thôi!</p>
+<p><strong>Tại sao tôi nên dùng Java?</strong></p>
+<p>Như đã nói ở trên, Java là một trong những ngôn ngữ lập trình linh hoạt nhất trên thế giới. Java dựa trên lập trình hướng đối tượng và là ngôn ngữ được lựa chọn cho nhiều thứ, bao gồm:</p>
+<p><strong>Phát triển ứng dụng Android</strong></p>
+<p>Một số nhóm lập trình bắt đầu sử dụng các ngôn ngữ khác, nhưng hầu như mọi ứng dụng tạo cho hệ điều hành Android đều được xây dựng trên Java. Tất cả các ứng dụng bạn sử dụng trên điện thoại Android đều chạy trên Java. Điều này đồng nghĩa biết cách code Java cho bạn nhiều cơ hội việc làm chỉ trong lĩnh vực này.</p>
+<p><strong>Phát triển web back-end</strong></p>
+<p>Java có thể mở rộng cực kỳ và tương đối dễ bảo trì. Đó là lý do vì sao Java được áp dụng bởi các nhà phát triển web back-end xây dựng ứng dụng web cho các trang web lớn. Người ta ước tính rằng hơn 80% các trang web lớn nhất thế giới sử dụng các ứng dụng web back-end được xây dựng bằng Java.</p>
+<p>Java cũng được sử dụng cho các công nghệ mới nổi như robot, nhưng hai ứng dụng trên là những công nghệ chính. Có nhiều lý do khiến Java trở thành ngôn ngữ được lựa chọn cho các trường hợp sử dụng này, bao gồm:</p>
+<ul>
+<li>Sử dụng chương trình Java Virtual Machine, Java có thể chạy trên mọi nền tảng hoặc hệ điều hành. Điều này được gọi là ‘’độc lập nền tảng’’, và nó có nghĩa là các chương trình được mã hóa bằng Java chỉ phải được viết một lần.</li>
+<li>Java có khả năng mở rộng cực kỳ lớn, điều đó có nghĩa là khi một công ty phát triển và các ứng dụng web của bạn trở nên phức tạp hơn, việc giữ cho code chạy trơn tru và không bị lỗi là khá dễ dàng.</li>
+<li>Java khá dễ học và đọc giống như tiếng Anh. Không có lý do gì đây không thể là lựa chọn ngôn ngữ đầu tiên cho người mới bắt đầu. Java được sử dụng đơn giản và dễ dàng để gỡ lỗi nếu cần thiết.</li>
+<li>Java không cần quản lý bộ nhớ hộp. Điều này giúp loại bỏ sự cần thiết của các thư viện bên thứ ba, đơn giản hóa quá trình lập trình.</li>
+</ul>
+<p>Như bạn có thể thấy, có rất nhiều lý do tại sao bạn nên học code Java. Trong phần tiếp theo, chúng ta sẽ xem xét các công cụ bạn sẽ cần để bắt đầu khám phá cách lập trình Java.</p>
+<p><strong>Những công cụ nào tôi cần để bắt đầu lập trình Java?</strong></p>
+<p>Có rất nhiều khóa học trực tuyến cho phép bạn <a href="https://www.bitdegree.org/course/java-tutorial"><strong>viết code Java</strong></a> trực tiếp vào trình soạn thảo code, nhưng đây không phải là cách nó hoạt động trong thế giới thực. Nếu bạn nghiêm túc về việc học lập trình Java cơ bản đúng cách, bạn cần làm quen với việc sử dụng các công cụ phù hợp ngay từ đầu. Dưới đây chúng tôi sẽ giới thiệu cách tải và cài đặt hai công cụ quan trọng nhất mà bạn cần. Đó là:</p>
+<p><strong>Bộ công cụ phát triển Java (Java Development Kit)</strong></p>
+<p>Bộ công cụ phát triển Java, hay JDK, là một chương trình cho phép bạn viết code Java một cách thoải mái trên máy tính để bàn. Nó chứa nhiều công cụ hữu ích để khởi tạo, chạy và tối ưu hóa code Java của bạn. Nó có thể được sử dụng với môi trường phát triển tích hợp Eclipse integrated development  environment (IDE) để làm cho việc viết code dễ dàng hơn bao giờ hết.</p>
+<p>Trước khi bạn sử dụng JDK, bạn sẽ cần tải và cài đặt nó trên máy tính. Đây là một bước quan trọng của việc học cách viết code Java. Bắt đầu với:</p>
+<figure class="post__image"><img loading="lazy"  src="https://johnxiaonathangnguyen.github.io/Blog/media/posts/41/tool.jpg" alt="" width="1014" height="542" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://johnxiaonathangnguyen.github.io/Blog/media/posts/41/responsive/tool-xs.jpg 300w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/41/responsive/tool-sm.jpg 480w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/41/responsive/tool-md.jpg 768w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/41/responsive/tool-lg.jpg 1024w"></figure>
+<ol>
+<li>Đi đến trang <a href="https://www.oracle.com/technetwork/java/javase/downloads/index.html"><strong>Java SE Downloads</strong></a>và nhấp vào phiên bản mới nhất của JDK. Làm theo hướng dẫn hiện lên trên màn hình để bắt đầu tải gói phù hợp cho hệ điều hành của bạn.</li>
+<li>Sau khi việc tải xuống hoàn tất, bạn cần chạy nó. Cách tốt nhất để làm điều này phụ thuộc vào việc bạn sử dụng Windows hay Mac, nhưng nó cũng không khác biệt so với việc cài đặt bất kỳ phần mềm nào khác.</li>
+<li>Làm theo hướng dẫn hiện lên trên màn hình để cài đặt chương trình và đợi chương trình hoàn tất.</li>
+</ol>
+<p>Giờ chúng ta sẵn sàng chuyển sang IDE Eclipse - công cụ thiết yếu thứ hai cho những người học cách viết code Java.</p>
+<p><strong>Môi trường tích hợp Eclipse IDE</strong></p>
+<p>IDE Eclipse là một công cụ cực kỳ phổ biến sử dụng cùng với JDK. Nó đơn giản hóa các tác vụ cơ bản như gỡ lỗi và biên dịch code, cho phép bạn tập trung hơn vào các quy trình viết và kiểm tra. Eclipse cũng hữu ích cho việc tổ chức và lưu trữ các tệp mã, cho phép bạn biên dịch và kiểm tra chúng khi cần - nhưng chúng ta chưa đề cập đến phần đó vội. Hãy bắt đầu bằng cách cài đặt Eclipse trước:</p>
+<ol>
+<li>Truy cập trang <a href="http://www.eclipse.org/downloads/packages/"><strong>Eclipse downloads</strong></a>và chọn Eclipse IDEcho Java EE developers.</li>
+<li>Tải tập tin, lưu vào ổ cứng và cài đặt như bất kỳ chương trình mới nào khác.</li>
+</ol>
+<p>Thật tuyệt, giờ đây bạn đã có cả JDK và IDE Eclipse trên máy tính - bạn đang trên con đường học lập trình Java cơ bản một cách hiệu quả! Tiếp theo, chúng ta phải liên kết JDK và Eclipse IDE</p>
+<ol>
+<li>Mở chương trình Eclipse và chọn không gian làm việc mặc định (default) khi được nhắc.</li>
+<li>Khi bạn ở trong Eclipse, hướng đến Tùy chọn (<strong>Preferences</strong>), chọn <strong>Java</strong>và sau đó chọn <strong>Installed JREs</strong></li>
+<li>Bây giờ bạn cần chọn JRE (Java Runtime Environment) phù hợp với JDK mà bạn đã tải xuống. Nếu máy tính của bạn không tự động lấy nó, bạn sẽ cần làm thủ công bằng cách ấn nút <strong>Add</strong>.</li>
+<li>Để thực hiện việc này, bấm<strong>Add</strong> (Thêm), chọn tùy chọn <strong>Standard VM</strong> và chọn <strong>Next</strong>. Chỉ cho chương trình biết nơi tìm JDK (thư mục tệp) và nhấp vào <strong>Finish</strong>. Nhấp vào <strong>OK</strong>, và chúng đã được thiết lập!</li>
+</ol>
+<p>Bây giờ bạn có tất cả các công cụ cần thiết để bắt đầu học cách viết code Java! Tiếp theo, chúng ta sẽ làm quen với Eclipse IDE.</p>
+<p><strong>Sử dụng Eclipse IDE</strong></p>
+<p>Trước khi bắt đầu, bạn phải nhận ra rằng Eclipse IDE là một công cụ cực kỳ mạnh mẽ giúp bạn tìm hiểu các khái niệm Java cơ bản. Nó bao gồm bốn vùng riêng biệt:</p>
+<ul>
+<li>Quan điểm (Perspectives)</li>
+<li>Không gian làm việc (Workspace)</li>
+<li>Lượt xem (Views)</li>
+<li>Dự án (Projects)</li>
+</ul>
+<p>Cho đến hiện tại, chúng ta chưa cần quan tâm đến những thứ này. Bạn sẽ khám phá thêm về chúng và cách chúng giúp bạn học lập trình Java khi bạn tiếp tục tìm hiểu sâu hơn nhưng bây giờ, hãy tập trung vào việc khởi động dự án đầu tiên của bạn!</p>
+<p><strong>Bắt đầu một dự án mới</strong></p>
+<p>Một khi bạn đã biết về Eclipse IDE chúng ta sẽ tiếp tục với phần tạo một dự án Java mới. Trước tiên, chọn <strong>File</strong>, sau đó chọn <strong>New</strong>, tiếp theo là <strong>Java Project</strong>. Hoàn toàn dễ dàng đúng không? Đặt tên cho dự án của bạn và thiết lập các phần còn lại dưới dạng mặc định (default). Chọn Finish và xem kết quả.</p>
+<p>Xin chúc mừng, bạn vừa tạo dự án Java (Java Project) đầu tiên! Bây giờ hãy tìm hiểu một chút về ngôn ngữ và cách chúng ta sử dụng nó để xây dựng các chương trình.</p>
+<figure class="post__image"><img loading="lazy"  src="https://johnxiaonathangnguyen.github.io/Blog/media/posts/41/new.jpg" alt="" width="774" height="518" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://johnxiaonathangnguyen.github.io/Blog/media/posts/41/responsive/new-xs.jpg 300w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/41/responsive/new-sm.jpg 480w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/41/responsive/new-md.jpg 768w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/41/responsive/new-lg.jpg 1024w"></figure>
+<p><strong>Giới thiệu về ngôn ngữ Java</strong></p>
+<p>Như chúng tôi đã lưu ý trước, Java là một ngôn ngữ lập trình tương đối đơn giản. Tuy nhiên, điều này không có nghĩa là nó không có một chút phức tạp. Mặc dù tôi đã cố gắng giữ cho nó thật đơn giản như sau (giữ nguyên chủ đề Java cho người mới bắt đầu,), bạn cũng không nên mong chờ bạn sẽ hiểu ngay mọi thứ. Ngay cả việc học Java cơ bản cũng mất thời gian và sẽ mất rất nhiều công sức và cam kết trước khi bạn hiểu cách viết code Java hiệu quả.</p>
+<p>Hãy bắt đầu với một trong những tính năng chính của ngôn ngữ - bản chất hướng đối tượng. Lưu ý rằng để bao gồm tất cả các tính năng của ngôn ngữ hướng đối tượng sẽ cần một bài viết đầy đủ, vì vậy phần bên dưới chỉ là một giới thiệu ngắn gọn.</p>
+<p><strong>Hướng đối tượng nghĩa là gì &amp; nó áp dụng cho Java như thế nào?</strong></p>
+<p>Trong một ngôn ngữ hướng đối tượng như Java, các hướng dẫn chương trình và dữ liệu được kết hợp để tạo thành các đối tượng (objects). Các đối tượng này là khép kín, và chúng có các thuộc tính và hành vi nhất định. Các đối tượng có nhiều kích cỡ và có thể dao động từ một vài dòng code đơn giản đến các khối cực kỳ phức tạp.</p>
+<p>Nếu bạn vẫn chưa có khái niệm gì về những gì tôi đang nói, đừng quá lo lắng. Bạn ở đây để tìm hiểu cách viết code Java và tiếp xúc với ngôn ngữ là điều quan trọng để giúp bạn học cách sử dụng nó - ngay cả khi bạn không hiểu những gì chúng tôi đang nói.</p>
+<p>Vì vậy, chúng ta vừa định nghĩa một đối tượng (object) và nó là gì, đã đến lúc có một cái nhìn nhanh về các tính năng cốt lõi của một đối tượng Java chuẩn là:</p>
+<ul>
+<li>Một đối tượng được viết chuẩn có ranh giới được xác định rõ.</li>
+<li>Các đối tượng chỉ nhận thức được dữ liệu của chúng và bất kỳ đối tượng nào khác mà chúng cần kết nối.</li>
+<li>Các đối tượng có một tập hợp các hoạt động được xác định mà chúng thực hiện - không hơn, không kém.</li>
+</ul>
+<p>Các đối tượng phụ thuộc vào các đối tượng khác, nhưng chỉ trong phạm vi mà chúng dựa vào.</p>
+<p><strong>Giới thiệu về cú pháp Java</strong></p>
+<p>Ban đầu nó có thể nghe khá phức tạp, cú pháp Java khá đơn giản. Cú pháp Java liên quan đến một vài loại <em>toán tử (operators), lớp (classes), biến (variables)</em> và những thứ khác. Hãy nhìn chúng chi tiết hơn như sau:</p>
+<p><strong><em>Từ khóa Keywords</em></strong> – để hiểu cách viết code Java, bạn cần biết một danh sách ngắn các từ được người đọc code coi là đặc biệt. Điều đó có nghĩa là chúng có chức năng đặc biệt và chúng sẽ thực hiện một số hành động nhất định khi được sử dụng trong code của bạn. Một số từ khóa phổ biến bao gồm if, for, other và float. Nếu bạn đang sử dụng một trình soạn thảo code như JDK với Eclipse IDE được cài đặt, bạn sẽ thấy các từ khóa xuất hiện với màu sắc khác với các thành phần khác trong code của bạn.</p>
+<p><strong><em>Giá trị Literals</em></strong> – Giống như từ khóa, literals có các chức năng đặc biệt mà chúng sẽ ban hành khi chúng được bao gồm trong code của bạn. Có ba giá trị literals: đúng, sai và không có giá trị.</p>
+<p><strong><em>Lớp Classes – </em></strong>Lớp là một trong những tính năng chính của ngôn ngữ lập trình Java. Chúng được sử dụng như bản thiết kế cho phép bạn tạo các đối tượng. Chúng xác định cấu trúc chung của đối tượng, ranh giới đối tượng và trạng thái của nó. Các lớp được định nghĩa theo một bộ quy tắc rất nghiêm ngặt mà bạn sẽ khám phá khi bạn bắt đầu học Java cơ bản.</p>
+<p><strong><em>Chuỗi Strings</em></strong> – Chuỗi là một phần rất quan trọng để biết cách viết code theo cú pháp Java. Chúng là các đối tượng hạng nhất chứa một giá trị cụ thể (thường là một 'chuỗi' văn bản).</p>
+<p><strong><em>Toán tử Operators – </em></strong>Giống như nhiều ngôn ngữ lập trình khác, Java sử dụng các toán tử. Chúng được sử dụng để làm số học và gán giá trị cho các biến. Có hai loại toán tử trong ngôn ngữ Java: Toán tử đơn nguyên, chỉ yêu cầu một toán hạng đơn (như = hoặc +) và toán tử nhị phân, yêu cầu hai toán hạng (như ++ hoặc + =). Có một loạt các toán tử khác nhau có chức năng khác nhau. Bạn sẽ khám phá những điều này khi bạn bắt đầu học Java.</p>
+<p><strong><em>Câu lệnh IF Statement – </em></strong>Một lần nữa, Java có một tính năng phổ biến chung giữa nhiều ngôn ngữ - câu lệnh IF. Câu lệnh này nhận một đầu vào, xác định xem nó là đúng hay sai và đưa ra một đầu ra được xác định trước theo kết quả.</p>
+<p><strong><em>Câu lệnh ELSE Statement – </em></strong>Câu lệnh ELSE được sử dụng theo cách rất giống với câu lệnh IF. Tuy nhiên, điểm khác biệt là câu lệnh ELSE chỉ phát huy tác dụng nếu câu lệnh IF sai. Ví dụ: chúng tôi cung cấp một cái gì đó vào câu lệnh IF, dẫn đến giá trị sai. Câu lệnh ELSE sau đó thực thi mã của nó. Nếu câu lệnh IF là đúng, câu lệnh ELSE bị bỏ qua.</p>
+<p><strong><em>Vòng lặp Loops – </em></strong>Vòng lặp là các cấu trúc cho phép bạn thực thi hoặc lặp lại trên cùng một khối mã nhiều lần trong khi các điều kiện nhất định được đáp ứng. Có ba loại cấu trúc vòng lặp khác nhau - vòng lặp for, vòng lặp while, và vòng lặp do...while. Bạn sẽ khám phá thêm cách thức hoạt động của chúng và cách sử dụng khi bạn bắt đầu học Java<em>.</em></p>
+<p><strong><em>Nhận xét Comments – </em></strong>Nhận xét là những đoạn văn bản nhỏ được viết giữa các dòng mã để giải thích mã đó là gì và nó phải làm gì. Chúng cực kỳ hữu ích khi bạn phải quay lại mã của mình vào một ngày sau đó, và đó là một ý tưởng rất tốt để tập thói quen sử dụng các nhận xét mang tính chất mô tả!</p>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Lịch sử của Java. Câu chuyện đầy đủ về sự phát triển Java, từ 1991 đến 2021</title>
         <author>
@@ -23,7 +546,7 @@
             <summary>
                 <![CDATA[
                         <img src="https://johnxiaonathangnguyen.github.io/Blog/media/posts/12/lich-su-hinh-thanh-va-phat-trien-cua-java-ngon-ngu-lap-trinh-pho-bien-nhat-the-gioi-1024x536.jpg" alt="" />
-                    Ngày nay Java là một trong những ngôn ngữ lập trình phổ biến và được yêu cầu nhiều nhất trên thế giới, với hơn 7 triệu nhà phát triển Java và hàng nghìn người học Java trực tuyến (trên các nền tảng như CodeGym và&hellip;
+                    Ngày nay Java là một trong những ngôn ngữ lập trình phổ biến và được yêu cầu nhiều nhất trên thế giới, với hơn 7&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -88,7 +611,7 @@
             <summary>
                 <![CDATA[
                         <img src="https://johnxiaonathangnguyen.github.io/Blog/media/posts/11/images-5-2.jpg" alt="" />
-                    Nếu bạn là người mới bắt đầu lập trình Java, có lẽ đã đến lúc bạn bắt đầu làm việc với một dự án Java nào đó! Ở đây, tại CodeGym, chúng tôi tin tưởng vào hiệu quả tuyệt vời của cách tiếp cận hướng&hellip;
+                    Nếu bạn là người mới bắt đầu lập trình Java, có lẽ đã đến lúc bạn bắt đầu làm việc với một dự án Java&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -138,7 +661,7 @@
             <summary>
                 <![CDATA[
                         <img src="https://johnxiaonathangnguyen.github.io/Blog/media/posts/9/images-3.jpg" alt="" />
-                    Bạn không nhất thiết phải là một thiên tài, có một nền tảng lập trình hay niềm tự hào của tuổi trẻ để bắt đầu sự nghiệp lập trình. Nếu bạn sẵn sàng học hỏi và sẵn sàng theo đuổi ước mơ của mình thì&hellip;
+                    Bạn không nhất thiết phải là một thiên tài, có một nền tảng lập trình hay niềm tự hào của tuổi trẻ để bắt đầu&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -178,7 +701,7 @@
             <summary>
                 <![CDATA[
                         <img src="https://johnxiaonathangnguyen.github.io/Blog/media/posts/8/images-2.jpg" alt="" />
-                    Chào mọi người! Nếu bạn đang nhắm đến (các) cuộc phỏng vấn dành cho nhà phát triển Java nhưng lại bối rối về cách chuẩn bị cho các cuộc phỏng vấn Java, thì bạn đang ở đúng nơi. Hướng dẫn ngắn gọn này có thể&hellip;
+                    Chào mọi người! Nếu bạn đang nhắm đến (các) cuộc phỏng vấn dành cho nhà phát triển Java nhưng lại bối rối về cách chuẩn&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -302,7 +825,7 @@
             <summary>
                 <![CDATA[
                         <img src="https://johnxiaonathangnguyen.github.io/Blog/media/posts/7/images-1.jpg" alt="" />
-                    Bạn sắp bắt đầu viết mã nhưng vẫn còn phân vân không biết nên chọn ngôn ngữ nào? Dưới đây, chúng tôi sẽ đề cập đến những câu hỏi phổ biến nhất về Java và tiết lộ lý do tại sao nó là một trong&hellip;
+                    Bạn sắp bắt đầu viết mã nhưng vẫn còn phân vân không biết nên chọn ngôn ngữ nào? Dưới đây, chúng tôi sẽ đề cập&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -383,7 +906,7 @@
             <summary>
                 <![CDATA[
                         <img src="https://johnxiaonathangnguyen.github.io/Blog/media/posts/6/images.jpg" alt="" />
-                    Nếu bạn muốn hiểu tại sao Java vẫn là một thứ dành cho các công ty lớn, thì bạn đang ở đúng nơi. Mặc dù năm nay đánh dấu kỷ niệm 28 năm của Java, nhưng nó vẫn là thứ không thể bị coi là&hellip;
+                    Nếu bạn muốn hiểu tại sao Java vẫn là một thứ dành cho các công ty lớn, thì bạn đang ở đúng nơi. Mặc dù&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -411,287 +934,6 @@
 <p>Java có phải là thứ khó bẻ khóa đối với người mới không? Không chính xác. Sinh viên có thể tận dụng rất nhiều thư viện, khung, IDE và công cụ phát triển mã nguồn mở. Hơn nữa, một <span class="text-bold"><em>cộng đồng mạnh mẽ</em></span> đứng đằng sau Java. Đó là một trong những lý do chính tại sao Java vẫn ở đỉnh cao. Một lý do khác cho sự phổ biến của Java là <span class="text-bold"><em>tính thân thiện với người dùng</em></span> của nó . Java có cú pháp giống tiếng Anh, có nghĩa là nó có đường cong học tập đơn giản và là ngôn ngữ lập trình đầu tiên lý tưởng cho người mới bắt đầu. Ngoài ra, Java có rất nhiều <span class="text-bold"><em>thư viện mã nguồn mở</em></span>và tài liệu tuyệt vời để giúp bạn trong quá trình học tập (cũng như giúp bạn giải quyết các vấn đề thường gặp nhất mà bạn có thể gặp phải khi phát triển các ứng dụng doanh nghiệp sau này). Các thư viện hữu ích nhất bao gồm Google Guava, Apache Xerxes, Apache POI, Apache Commons, OpenCV, Gson và các thư viện khác. Điểm tiếp theo có lợi cho Java là <span class="text-bold"><em>API phong phú</em></span> của nó . Nói một cách đơn giản, Giao diện lập trình ứng dụng rất rộng và có thể phù hợp với mọi mục đích, bao gồm kết nối mạng, làm việc với cơ sở dữ liệu, phân tích cú pháp XML, xử lý đầu vào-đầu ra, v.v. Cuối cùng nhưng không kém phần quan trọng, Java tự hào có một bộ <span class="text-bold"><em>công cụ phát triển mạnh mẽ</em></span>. Một trong những đặc quyền của Java là Môi trường Phát triển Tích hợp (IDE), bao gồm các công cụ tự động hóa khác nhau, trình soạn thảo và trình sửa lỗi mạnh mẽ. Các IDE Java phổ biến nhất là NetBeans, Eclipse, IntelliJ IDEA, Maven, Jenkins và JConsole.</p>
 <h2>Kết luận</h2>
 <p>Không còn nghi ngờ gì nữa, Java sẽ vẫn là một trong những ngôn ngữ lập trình phổ biến và được sử dụng rộng rãi nhất trên toàn cầu trong tương lai gần nhất. Java và tất cả các tính năng bổ sung của nó như khung và API sẽ tiếp tục cho phép các nhà phát triển tạo ra phần mềm có khả năng mở rộng, an toàn và mạnh mẽ. Nhìn vào tất cả những lợi ích này và các công ty lớn sử dụng Java, thật dễ hiểu tại sao Java là một ngôn ngữ hoàn hảo để phát triển phần mềm doanh nghiệp với bất kỳ nhu cầu thương mại nào. Vì vậy, khi quyết định học Java, chắc chắn bạn đang đưa ra một lựa chọn an toàn cho tương lai gần. Ngoài ra, bạn sẽ nhận được một hệ sinh thái phát triển tốt gồm các thư viện, công cụ, cộng đồng và tiện ích thử nghiệm theo ý của bạn. Ai nói đường cong học tập nên khó khăn?</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Ngăn xếp Java</title>
-        <author>
-            <name>nguyenducthang</name>
-        </author>
-        <link href="https://johnxiaonathangnguyen.github.io/Blog/ngan-xep-java.html"/>
-        <id>https://johnxiaonathangnguyen.github.io/Blog/ngan-xep-java.html</id>
-        <media:content url="https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/original-2.jpeg" medium="image" />
-            <category term="Bài viết của tôi"/>
-
-        <updated>2024-12-26T11:41:29+07:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/original-2.jpeg" alt="" />
-                    Ngăn xếp trong Java thường có nghĩa là lớp từ Bộ sưu tập Khung triển khai giao diện Danh sách. Nó hoạt động theo nguyên tắc cấu trúc dữ liệu Stack, được sử dụng để tổ chức một trong các loại bộ nhớ. Ngoài ra,&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/original-2.jpeg" class="type:primaryImage" alt="" /></p>
-                <p>Ngăn xếp trong Java thường có nghĩa là lớp từ Bộ sưu tập Khung triển khai giao diện Danh sách. Nó hoạt động theo nguyên tắc cấu trúc dữ liệu Stack, được sử dụng để tổ chức một trong các loại bộ nhớ. Ngoài ra, nó có thể là một phần của bộ nhớ để lưu giữ dữ liệu, Trong bài viết này, trước hết chúng ta sẽ chú ý đến lớp <code><span class="code">Stack</span></code> , xem xét các phương thức của nó và đưa ra các ví dụ. Nhưng chúng ta cũng sẽ nói về cấu trúc dữ liệu như <code><span class="code">Stack</span></code> và nó được sử dụng để làm gì.</p>
-<h2>Cấu trúc dữ liệu ngăn xếp là gì</h2>
-<p>Trước hết, chúng ta hãy xem nhanh cấu trúc dữ liệu ngăn xếp là gì. Đó là cấu trúc dữ liệu tuyến tính dựa trên nguyên tắc Nhập trước xuất trước (LIFO). Đó là loại chống xếp hàng. Hãy tưởng tượng một cỗ bài hoặc một chồng sách trong hộp. Cuốn sách mà bạn đặt vào ngăn xếp đầu tiên nằm ở dưới cùng và cuốn sách đầu tiên chúng ta sẽ lấy ra khỏi hộp là cuốn sách ở trên cùng - tức là cuốn sách được cho vào hộp cuối cùng. Dưới đây là một hình ảnh gif để chứng minh nguyên tắc này. </p>
-<p><img loading="lazy" src="https://cdn.codegym.cc/images/article/f8e725f0-50c1-4854-a2f0-85a4b17cacbc/256.webp" alt="Ngăn xếp Java - 1" data-is-external-image="true"></p>
-<p>Những gì đang xảy ra ở đây? Chúng tôi có một cái bình trong đó mỗi lần chỉ có thể đánh một quả bóng. Đầu tiên trong bình là một quả bóng màu cam, sau đó là màu tím và cuối cùng là màu xanh lá cây (tôi xin lỗi những ai biết tên chính xác hơn của những màu này). Tuy nhiên, để lấy một quả bóng màu cam từ ngăn xếp bình của chúng ta, trước tiên chúng ta cần lấy quả bóng ở đó cuối cùng (quả màu xanh lá cây), sau đó là quả bóng áp chót (nhưng tại thời điểm lấy nó là quả cuối cùng). một). Cấu trúc dữ liệu ngăn xếp trong Java hay bất kỳ nơi nào khác trong lập trình có hai thao tác quan trọng nhất là <span class="text-bold">đẩy</span> và <span class="text-bold">bật</span> . Thao tác đẩy chèn một phần tử vào ngăn xếp và thao tác pop loại bỏ một phần tử khỏi đỉnh ngăn xếp.</p>
-<h2>Cấu trúc dữ liệu Stack để làm gì?</h2>
-<p>Một trong những ứng dụng quan trọng nhất của ngăn xếp là tổ chức các cuộc gọi chương trình con. Điểm gọi trên ngăn xếp lưu trữ địa chỉ trả về từ chương trình con sau khi nó kết thúc (và có thể cả các tham số được truyền vào). Với mỗi lệnh gọi lồng nhau (bao gồm cả đệ quy) của các chương trình con, các địa chỉ trả về mới được thêm vào ngăn xếp. Với mỗi thao tác trả về từ chương trình con (trả về), địa chỉ trả về sẽ bị xóa khỏi ngăn xếp và quyền điều khiển được chuyển đến nó. Ứng dụng này quan trọng đối với lập trình đến nỗi trong hầu hết các bộ xử lý, ngăn xếp trả về được triển khai trong phần cứng trong tập lệnh. Tuy nhiên, trong các trường hợp khác, ngăn xếp phải được mô hình hóa trên các cấu trúc dữ liệu tổng quát hơn.</p>
-<h2>Lớp khung công tác bộ sưu tập Java Stack</h2>
-<p>Trong Java Lớp <code><span class="code">ngăn xếp</span></code> là một lớp từ khung Bộ sưu tập thực hiện giao diện Danh sách và mở rộng lớp Vector. Nó cũng triển khai các giao diện Collection, Iterable, Cloneable, Serializable. Như bạn có thể đã đoán, lớp này đại diện cho chồng đối tượng LIFO. Đây là lệnh gọi hàm tạo của lớp<code> <span class="code">Stack</span></code> , nghĩa là tạo một đối tượng của lớp này. </p>
-<p><code><span class="token class-name">Stack</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">E</span><span class="token punctuation">&gt;</span></span> stack <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Stack</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">E</span><span class="token punctuation">&gt;</span></span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></p>
-<p>Trong đó <code><span class="code">E</span></code> là loại Đối tượng. </p>
-<h2>Phương pháp ngăn xếp Java</h2>
-<p>Lớp này chỉ có một hàm tạo mặc định và tất cả các phương thức của lớp <span class="code">Vector</span> . Ngoài ra, <span class="code">Stack</span> có 5 phương thức riêng:</p>
-<ul>
-<li>
-<p><code><span class="code">boolean empty()</span> </code>phương thức kiểm tra xem ngăn xếp có rỗng hay không. Trả về <em>true</em> nếu ngăn xếp trống, <em>false</em> nếu không.</p>
-</li>
-<li>
-<p><span class="code"><code>Đối tượng peek()</code></span> phương thức trả về phần tử ở trên cùng của ngăn xếp.</p>
-</li>
-<li>
-<p><code><span class="code">Object pop()</span></code> phương thức trả về phần tử ở trên cùng của ngăn xếp và loại bỏ nó.</p>
-</li>
-<li>
-<p><code><span class="code">Đẩy đối tượng(Phần tử đối tượng)</span></code> phương thức thêm phần tử đã chỉ định vào đầu ngăn xếp.</p>
-</li>
-<li>
-<p><code><span class="code">int search(Object element)</span></code> phương thức tìm kiếm ngăn xếp cho phần tử đã chỉ định. Nếu phần tử được yêu cầu được tìm thấy, thì "khoảng cách" của nó từ trên cùng (số sê-ri) sẽ được trả về. Nếu phần tử không được tìm thấy, -1 được trả về.</p>
-</li>
-</ul>
-<h2>Ví dụ mã ngăn xếp</h2>
-<p>Hãy tạo một ví dụ chương trình hoạt động như ảnh gif ở trên. Chúng tôi sẽ đặt ba "quả bóng", cam, tím và xanh lá cây, trên ngăn xếp. Hãy kiểm tra ngăn xếp xem có trống không. Sau đó, chúng tôi sẽ lấy các quả bóng từ ngăn xếp cho đến khi ngăn xếp trống.</p>
-<figure class="post__image"> <img loading="lazy"  src="https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/b1335d83806d3d33647c-2.jpg" alt="" width="1074" height="745" sizes="(min-width: 1500px) calc(7.87vw + 610px), (min-width: 900px) calc(44.48vw + 68px), (min-width: 780px) calc(8vw + 604px), calc(84.35vw + 23px)" srcset="https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/responsive/b1335d83806d3d33647c-2-xs.jpg 300w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/responsive/b1335d83806d3d33647c-2-sm.jpg 480w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/responsive/b1335d83806d3d33647c-2-md.jpg 768w"></figure>
-<p>Đây là đầu ra của chương trình này:</p>
-<figure class="post__image"><img loading="lazy"  src="https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/da1933ac9c42211c7853-3.jpg" alt="" width="1288" height="312" sizes="(min-width: 1500px) calc(7.87vw + 610px), (min-width: 900px) calc(44.48vw + 68px), (min-width: 780px) calc(8vw + 604px), calc(84.35vw + 23px)" srcset="https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/responsive/da1933ac9c42211c7853-3-xs.jpg 300w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/responsive/da1933ac9c42211c7853-3-sm.jpg 480w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/responsive/da1933ac9c42211c7853-3-md.jpg 768w"></figure>
-<p>Do <code><span class="code">Stack</span></code> được kế thừa từ Lớp <code><span class="code">Vector</span></code> và triển khai giao diện <code><span class="code">Danh sách</span></code> , nên ngoài các thao tác đẩy và bật cổ điển cho cấu trúc dữ liệu này để thêm và trích xuất các phần tử, <code><span class="code">Stack còn có tiêu chuẩn cho các thao tác </span><span class="code">thêm ()</span> và <span class="code">xóa ()</span></code> của cấu trúc danh sách . Trong ví dụ của chúng tôi, việc thêm các phần tử có thể được thực hiện theo cách tương tự bằng cách sử dụng phương thức <code><span class="code">add()</span></code> . Tuy nhiên, bạn chỉ có thể trích xuất bằng cách sử dụng <code><span class="code">remove() với một phần tử được chỉ định, điều này không có ý nghĩa gì đối với cấu trúc dữ liệu ngăn xếp.</span></code></p>
-<figure class="post__image"><img loading="lazy"  src="https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/032d5f21e4cf599100de-3.jpg" alt="" width="1067" height="733" sizes="(min-width: 1500px) calc(7.87vw + 610px), (min-width: 900px) calc(44.48vw + 68px), (min-width: 780px) calc(8vw + 604px), calc(84.35vw + 23px)" srcset="https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/responsive/032d5f21e4cf599100de-3-xs.jpg 300w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/responsive/032d5f21e4cf599100de-3-sm.jpg 480w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/responsive/032d5f21e4cf599100de-3-md.jpg 768w"></figure>
-<p> Tất nhiên, kết quả của công việc chương trình sẽ giống hệt nhau. </p>
-<h2>Còn việc triển khai Stack của riêng bạn thì sao?</h2>
-<p>Bạn có thể tạo cấu trúc dữ liệu ngăn xếp của riêng mình trong Java bằng cách sử dụng mảng hoặc lớp danh sách liên kết. Trong trường hợp đầu tiên, một mảng ô liên tục được phân bổ để lưu trữ các giá trị trong bộ nhớ, được sử dụng khi cần thiết. Trong trường hợp thứ hai, đối với mỗi phần tử của ngăn xếp, một khối bộ nhớ được sắp xếp, đủ để lưu trữ giá trị và tham chiếu đến các phần tử trước đó và tiếp theo của ngăn xếp. Việc triển khai dựa trên mảng đơn giản hơn, hiệu quả hơn và tiết kiệm bộ nhớ hơn, nhưng nó yêu cầu kiến ​​thức trước về giới hạn kích thước ngăn xếp và có thể dẫn đến các lỗi khó tìm. Việc triển khai dựa trên danh sách mạnh mẽ hơn nhưng kém hiệu quả hơn. Hãy thực hiện một triển khai ngăn xếp dựa trên mảng đơn giản. Nó sẽ bao gồm các chức năng.</p>
-<ul>
-<li>
-<p><code><span class="code">đẩy</span></code> - một phương thức sẽ đảm bảo thêm một phần tử (ở vị trí trên cùng)</p>
-</li>
-<li>
-<p><code><span class="code">pop</span> </code>— một phương thức sẽ cung cấp việc loại bỏ một phần tử (từ vị trí trên cùng)</p>
-</li>
-<li>
-<p><code><span class="code">readTop</span> </code>— một phương thức sẽ trả về giá trị của phần tử ở vị trí trên cùng</p>
-</li>
-<li>
-<p><code><span class="code">sEmpty</span> </code>— một phương thức sẽ kiểm tra sự trống rỗng của ngăn xếp</p>
-</li>
-<li>
-<p><code><span class="code">isFull</span> </code>— một phương thức sẽ kiểm tra xem mảng mà chúng ta lưu trữ ngăn xếp có đầy không</p>
-</li>
-</ul>
-<figure class="post__image"><img loading="lazy"  src="https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/4038c6c4722acf74963b.jpg" alt="" width="884" height="800" sizes="(min-width: 1500px) calc(7.87vw + 610px), (min-width: 900px) calc(44.48vw + 68px), (min-width: 780px) calc(8vw + 604px), calc(84.35vw + 23px)" srcset="https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/responsive/4038c6c4722acf74963b-xs.jpg 300w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/responsive/4038c6c4722acf74963b-sm.jpg 480w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/responsive/4038c6c4722acf74963b-md.jpg 768w"></figure>
-<figure class="post__image"><img loading="lazy"  src="https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/4663583feed1538f0ac0-2.jpg" alt="" width="884" height="442" sizes="(min-width: 1500px) calc(7.87vw + 610px), (min-width: 900px) calc(44.48vw + 68px), (min-width: 780px) calc(8vw + 604px), calc(84.35vw + 23px)" srcset="https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/responsive/4663583feed1538f0ac0-2-xs.jpg 300w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/responsive/4663583feed1538f0ac0-2-sm.jpg 480w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/responsive/4663583feed1538f0ac0-2-md.jpg 768w"></figure>
-<p>Bây giờ, hãy thực hiện một ví dụ với ba quả bóng dựa trên ngăn xếp của chúng tôi:</p>
-<figure class="post__image"><img loading="lazy"  src="https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/2ab1665aedb450ea09a5.jpg" alt="" width="881" height="467" sizes="(min-width: 1500px) calc(7.87vw + 610px), (min-width: 900px) calc(44.48vw + 68px), (min-width: 780px) calc(8vw + 604px), calc(84.35vw + 23px)" srcset="https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/responsive/2ab1665aedb450ea09a5-xs.jpg 300w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/responsive/2ab1665aedb450ea09a5-sm.jpg 480w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/responsive/2ab1665aedb450ea09a5-md.jpg 768w"></figure>
-<p> Đầu ra ở đây: </p>
-<figure class="post__image"><img loading="lazy"  src="https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/1da74fd4c03a7d64242b.jpg" alt="" width="1206" height="271" sizes="(min-width: 1500px) calc(7.87vw + 610px), (min-width: 900px) calc(44.48vw + 68px), (min-width: 780px) calc(8vw + 604px), calc(84.35vw + 23px)" srcset="https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/responsive/1da74fd4c03a7d64242b-xs.jpg 300w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/responsive/1da74fd4c03a7d64242b-sm.jpg 480w ,https://johnxiaonathangnguyen.github.io/Blog/media/posts/5/responsive/1da74fd4c03a7d64242b-md.jpg 768w"></figure>
-<p> Nếu bạn nhìn kỹ, biến trên cùng thực sự chứa chỉ mục của phần tử cuối cùng và tham chiếu đến đối tượng vẫn còn trong mảng. Vì vậy, việc thực hiện này cần một số cải tiến. Hãy suy nghĩ về cách dễ nhất để làm điều này.</p>
-<h2>Chúng ta có nên sử dụng Java Stack không?</h2>
-<p>Trên thực tế, Java<span class="code"> <code>Stack</code></span><code> </code>, giống như <code><span class="code">Vector</span> </code>cha của nó, là một lớp kế thừa. Thay vào đó, lớp <code><span class="code">ArrayList</span> </code>thường được sử dụng. <code><span class="code">ArrayList</span> </code>không được đồng bộ hóa trong khi <code><span class="code">Vector</span> </code>được đồng bộ hóa. Điều đó có nghĩa là với <span class="code"><code>Vector</code>,</span> chỉ một luồng tại một thời điểm có thể truy cập mã, trong khi <code><span class="code">ArrayList</span> </code>có thể hoạt động với nhiều luồng. Ngoài ra, <code><span class="code">ArrayList</span> </code>hiệu quả hơn và nhanh hơn. Vì vậy, rất có thể bạn sẽ chỉ thấy lớp này trong mã kế thừa. Nhưng cấu trúc dữ liệu <code><span class="code">Stack</span> </code>được sử dụng rất thường xuyên trong lập trình.</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Những yêu cầu phổ biến nào mà các công ty có đối với các nhà phát triển Java cấp dưới? Bộ kỹ năng tối thiểu là gì?</title>
-        <author>
-            <name>nguyenducthang</name>
-        </author>
-        <link href="https://johnxiaonathangnguyen.github.io/Blog/nhung-yeu-cau-pho-bien-nao-ma-cac-cong-ty-co-doi-voi-cac-nha-phat-trien-java-cap-duoi-bo-ky-nang-toi-thieu-la-gi.html"/>
-        <id>https://johnxiaonathangnguyen.github.io/Blog/nhung-yeu-cau-pho-bien-nao-ma-cac-cong-ty-co-doi-voi-cac-nha-phat-trien-java-cap-duoi-bo-ky-nang-toi-thieu-la-gi.html</id>
-        <media:content url="https://johnxiaonathangnguyen.github.io/Blog/media/posts/4/original-1.jpeg" medium="image" />
-            <category term="Bài viết của tôi"/>
-
-        <updated>2024-12-26T11:18:01+07:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://johnxiaonathangnguyen.github.io/Blog/media/posts/4/original-1.jpeg" alt="" />
-                    Hãy bắt đầu với những điều cơ bản. Tại sao vị trí Junior Java developer lại hấp dẫn? Câu trả lời rất đơn giản – Các nhà phát triển Java sơ cấp là những lập trình viên mới bắt đầu có thể kiếm được nhiều&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://johnxiaonathangnguyen.github.io/Blog/media/posts/4/original-1.jpeg" class="type:primaryImage" alt="" /></p>
-                <p>Hãy bắt đầu với những điều cơ bản. Tại sao vị trí Junior Java developer lại hấp dẫn? Câu trả lời rất đơn giản – Các nhà phát triển Java sơ cấp là những lập trình viên mới bắt đầu có thể kiếm được nhiều tiền trong khi có một bộ kỹ năng khá cơ bản. Cùng với đó, họ có cơ hội tuyệt vời để học hỏi từ các nhà phát triển Cấp cao và trưởng nhóm và cuối cùng trở thành chuyên gia. Nhu cầu về Junior devs có cao không? Chắc chắn! So với phần lớn các công việc khác, Junior Java developer có tốc độ tăng trưởng "nhanh hơn nhiều so với mức trung bình" là 13% trong giai đoạn 2018-2028 (theo Cục Thống kê Lao động Hoa Kỳ). Do đó, số lượng cơ hội việc làm dành cho nhà phát triển Java sơ cấp được dự đoán sẽ tăng lên tới 20.900 vào năm 2028. Vì vậy, đây có lẽ là thời điểm tốt nhất để bắt đầu sự nghiệp viết mã của bạn.</p>
-<figure class="align-center"><img loading="lazy"  src="https://cdn.codegym.cc/images/article/19b6c25c-3142-4b4b-a01b-2ea2007369f2/800.webp" alt="Những yêu cầu phổ biến nào mà các công ty có đối với các nhà phát triển Java cấp dưới?  Bộ kỹ năng tối thiểu là gì?  - 1" data-is-external-image="true"></figure>
-<h2>Nhà phát triển Java cơ sở thực sự làm gì?</h2>
-<p>Khi mới bắt đầu sự nghiệp, các nhà phát triển Java Junior thường cần viết mã hiệu quả và ổn định, tiến hành phân tích phần mềm, chạy thử nghiệm để tìm lỗi, di chuyển mã và dữ liệu, đảm bảo ứng dụng được tích hợp với các phát triển của công ty khác, v.v. Họ có thể làm việc trên cả dự án front-end và back-end. Tuy nhiên, tất cả những điều này đều quy về nhiệm vụ chính — <span class="text-bold"><em>xây dựng và duy trì một ứng dụng</em></span> . Và trong suốt vòng đời của nó, các trách nhiệm chính của Junior Java Developers thường bao gồm:</p>
-<ul>
-<li>Viết mã nên dễ bảo trì.</li>
-<li>Cải thiện và nâng cao mã.</li>
-<li>Thực hiện khắc phục sự cố (tìm và sửa các lỗi nhỏ và lỗi trong mã).</li>
-<li>Làm việc trên phía quản trị viên của các công cụ.</li>
-<li>Biết cơ sở mã và làm việc với nó.</li>
-<li>Làm việc trên các tính năng do Nhà phát triển cấp cao thiết lập.</li>
-<li>Tham gia vào quá trình thử nghiệm và tiến độ tài liệu.</li>
-<li>Phân tích các yêu cầu kỹ thuật của các dự án.</li>
-<li>Làm việc cùng với một nhóm và tham dự các cuộc họp.</li>
-<li>Lập báo cáo và các loại tài liệu khác.</li>
-<li>Thu thập phản hồi của người dùng.</li>
-</ul>
-<p>Đây là những nhiệm vụ phổ biến nhất của một chuyên gia Java Sơ cấp, tuy nhiên, bạn cũng nên sẵn sàng tham gia vào tất cả các giai đoạn của dự án và làm việc dưới sự giám sát. Là một nhà phát triển Junior Java có kinh nghiệm, bạn thậm chí có thể phải gặp khách hàng để xem xét các sở thích của họ và đưa ra một lời khuyên. Và, như bạn có thể đoán, kỹ năng mềm của bạn cũng sẽ đóng một vai trò quan trọng ở đây.</p>
-<h2>Vị trí công việc mở ở Ấn Độ</h2>
-<p>Bạn có biết rằng Ấn Độ là điểm đến tìm nguồn cung ứng hàng đầu trên thế giới, với khoảng 55% thị phần trong tổng số hơn 250 tỷ USD dịch vụ toàn cầu? Và dự kiến ​​chi tiêu cho CNTT ở Ấn Độ sẽ tăng lên tới 101,8 tỷ USD trong năm nay so với 81,89 tỷ USD vào năm 2021. Hơn nữa, Ấn Độ dự kiến ​​sẽ có nền kinh tế kỹ thuật số trị giá 1 nghìn tỷ USD vào năm 2025. Ngày nay, ngành CNTT Ấn Độ bao gồm các dịch vụ CNTT, CNTT -các dịch vụ hỗ trợ, thương mại điện tử, cũng như các sản phẩm phần mềm và phần cứng. Ngoài ra, lĩnh vực CNTT ở Ấn Độ bao gồm các dịch vụ của chính phủ (dịch vụ y tế, thông tin giáo dục, quyền và dịch vụ của người tiêu dùng, v.v.). Nói cách khác, CNTT là xương sống giúp nền kinh tế Ấn Độ phát triển thịnh vượng và tạo ra hàng triệu việc làm. Và nếu bạn xem qua các trang web việc làm hàng đầu của Ấn Độ và toàn cầu, bạn sẽ tìm thấy nhiều danh sách công việc dành cho Nhà phát triển Java cấp dưới. Dựa theo<a href="https://www.monsterindia.com/search/junior-java-developer-jobs" rel="nofollow noopener" target="_blank">Monster</a> , hiện có hơn 400 Việc làm Nhà phát triển Java Sơ cấp; <a href="https://www.glassdoor.com/Job/india-junior-java-developer-jobs-SRCH_IL.0,5_IN115_KO6,27.htm" rel="nofollow noopener" target="_blank">Glassdoor</a> liệt kê khoảng 1.500,00 lời mời làm việc, trong khi <a href="https://in.indeed.com/jobs?l=&amp;q=junior+java+developer&amp;from=career" rel="nofollow noopener" target="_blank">Thật vậy</a> có hơn 2.000,00 cơ hội việc làm. Tuy nhiên, vị vua ở đây chắc chắn là <a href="https://in.indeed.com/jobs?l=&amp;q=junior+java+developer&amp;from=career" rel="nofollow noopener" target="_blank">Naukri.com</a> , với hơn 37.000,00 cơ hội việc làm chỉ dành cho Nhà phát triển Java sơ cấp. Các công ty hàng đầu đang tìm kiếm Nhà phát triển Java sơ cấp là ThyssenKrupp Materials IT Services India Pvt. Ltd, Phần mềm Iris, Accenture, Infosys Technologies, IBM Ấn Độ, Dell Internationa, Oracle, TCS, United Health Group, Phần mềm Iris, Cueserve, Agiloft, eMudhra, Talent Basket, Cục nghiên cứu Internet, NCS SoftSolutions, Kuruvila Technologies Private Limited, Pushkal It , và nhiều cái khác.</p>
-<h2>Mức lương của các nhà phát triển Java sơ cấp ở Ấn Độ</h2>
-<p>Đối với hầu hết người lao động, tiền lương là một trong những tiêu chí chính để lựa chọn công việc. Chắc chắn, chúng tôi không nói rằng đãi ngộ tài chính là lý do duy nhất để chọn nghề phát triển phần mềm, nhưng không ai có thể phủ nhận rằng tiền là động lực và động lực to lớn để phát triển bản thân. Bây giờ, hãy kiểm tra số tiền bạn có thể kiếm được với tư cách là một nhà phát triển Java cấp thấp. Theo Thật vậy, một nhà phát triển Java Sơ cấp trung bình ở Ấn Độ kiếm được 21.503 Rupee mỗi tháng, tương đương 3.03.701 Rupee mỗi năm với các công ty hàng đầu như Orange Business Services. Và CRB Tech Solutions Pvt. Ltd cung cấp hơn ₹5,00,000 mỗi năm. Nghe có vẻ hấp dẫn!</p>
-<h2>Yêu cầu đối với Nhà phát triển cơ sở ở Ấn Độ</h2>
-<p>Ngoài ra, bạn nên làm quen với các yêu cầu của nhà tuyển dụng đối với ứng viên ở Ấn Độ. Tất nhiên, những kỳ vọng có thể khác nhau giữa các công ty, nhưng một bộ kỹ năng trung bình như sau:</p>
-<ul>
-<li>Kiến thức vững chắc về Java, bao gồm cú pháp, bộ sưu tập và đa luồng.</li>
-<li>Hiểu sâu về các nguyên tắc lập trình OO và cam kết tạo mã sạch, hiệu quả.</li>
-<li>Có kinh nghiệm về J2EE, JSP, Servlets, Java Script, JQuery, HTML, Spring Boot, Spring và Hibernate.</li>
-<li>Hiểu biết về các khái niệm cơ sở dữ liệu (MySQL).</li>
-<li>Có kinh nghiệm về IDE như Eclipse, NetBeans, Maven, IntelliJ, v.v.</li>
-<li>Nắm vững các hệ thống và dịch vụ kiểm soát phiên bản, như GitHub hoặc GitLab.</li>
-<li>Tích hợp API, thuật toán và mẫu thiết kế.</li>
-<li>Cần có sự hiểu biết về các khuôn khổ dự án web, khuôn khổ doanh nghiệp và các công cụ kiểm tra đơn vị.</li>
-<li>Kinh nghiệm thực hành cấp độ cơ bản trong lập trình.</li>
-<li>Kiến thức về các công cụ kiểm soát phiên bản.</li>
-<li>Có kinh nghiệm tốt về SQL/Oracle.</li>
-<li>Hiểu biết đầy đủ về vòng đời phát triển ứng dụng.</li>
-</ul>
-<p>Là những kỹ năng được ưu tiên, các công ty Ấn Độ thường liệt kê:</p>
-<ul>
-<li>Khả năng tìm hiểu phần mềm và công nghệ mới một cách nhanh chóng.</li>
-<li>Kỹ năng giao tiếp tốt.</li>
-<li>Kỹ năng giải quyết vấn đề mạnh mẽ và khả năng ra quyết định nhanh chóng.</li>
-</ul>
-<h2>Các khóa học trực tuyến có thể giúp đạt được các kỹ năng cần thiết không?</h2>
-<p>Các khóa học Java trực tuyến hiện là một trong những cách học được ưa thích nhất. Và thật dễ hiểu tại sao. Chúng không chỉ có chi phí hợp lý hơn nhiều so với học đại học mà còn linh hoạt và tương tác hơn nhiều. Chẳng hạn, khóa học <a href="https://codegym.cc/s/cg_in_uni_common_requirements_article_text" rel="nofollow noopener" target="_blank">"Nghề nghiệp nhà phát triển Java”</a> mới cực kỳ hấp dẫn và nhiều thông tin vì nó được thiết kế với các kỹ thuật giảng dạy mới nhất như trò chơi hóa, kể chuyện và trực quan hóa. Khóa học bao gồm các bài học thường xuyên với một người cố vấn về độ phức tạp ngày càng tăng với khả năng xác minh tức thì bài tập về nhà của bạn , để bạn có thể nhận được đánh giá và đề xuất có giá trị ở mọi giai đoạn.Thêm vào đó, khóa học có hỗ trợ dựa trên trò chuyện.Khóa học 12 tháng này cung cấp những kỹ năng gì? Nội dung khóa học Nghề lập trình viên Java.</p>
-<table style="border-collapse: collapse; border-color: #000000; border-style: solid;">
-<tbody>
-<tr>
-<th><strong>Kỹ năng hàng đầu dành cho nhà phát triển Java sơ cấp ở Ấn Độ</strong></th>
-<th><strong>Thông tin bổ sung</strong></th>
-<th><strong>Nội dung Nghề lập trình viên Java</strong></th>
-</tr>
-<tr>
-<td>Java cơ bản</td>
-<td>Đúng</td>
-<td>Mô-đun 1</td>
-</tr>
-<tr>
-<td>Hiểu biết về các nguyên tắc lập trình OO</td>
-<td>Đúng</td>
-<td>Mô-đun 1,2</td>
-</tr>
-<tr>
-<td>J2EE, JSP, Servlets, Java Script, JQuery, HTML, Khởi động mùa xuân, Mùa xuân, Ngủ đông</td>
-<td>Đúng</td>
-<td>Mô-đun 3, Mô-đun 4, Mô-đun 5</td>
-</tr>
-<tr>
-<td>Làm quen với IDE</td>
-<td>Đúng</td>
-<td>Mô-đun 1</td>
-</tr>
-<tr>
-<td>Tích hợp API, thuật toán, đa luồng, mẫu thiết kế</td>
-<td>Đúng</td>
-<td>Mô-đun 1, Mô-đun 2</td>
-</tr>
-<tr>
-<td>Khái niệm cơ sở dữ liệu (MySQL)</td>
-<td>Đúng</td>
-<td>mô-đun 4</td>
-</tr>
-<tr>
-<td>Trải nghiệm thực tế ở mức cơ bản</td>
-<td>Đúng</td>
-<td>Tất cả các mô-đun</td>
-</tr>
-</tbody>
-</table>
-<h2>Kết luận</h2>
-<p>Như bạn thấy, <a href="https://codegym.cc/s/cg_in_uni_common_requirements_article_text" rel="nofollow noopener" target="_blank">khóa học “Nghề lập trình viên Java”</a> đáp ứng hầu hết các yêu cầu. Trong các mô-đun 1, 2 và 3, bạn sẽ nắm vững Cú pháp Java và Java Core cũng như kiến ​​thức về các công cụ hữu ích dành cho nhà phát triển như Maven, JUnit5, TomCat và các công cụ khác, trong khi các mô-đun 3, 4 và 5 sẽ giúp bạn hiểu Cơ sở dữ liệu , Hibernate, frameworks Spring và Spring Boot. Sau khi kết thúc khóa học, bạn sẽ có trải nghiệm thực tế đầu tiên để thêm vào danh mục đầu tư của mình. Điều quan trọng là giữ cho mình đam mê và động lực về sự nghiệp tương lai của bạn. Như họ nói, 'Để thành công trong cuộc sống, bạn cần ba điều: một xương đòn, một xương sống và một xương hài hước'. CodeGym chắc chắn có thể trở thành xương sống của bạn, vậy tại sao không bắt đầu xây dựng nó càng sớm càng tốt ?</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Có gì mới để mong đợi từ Java vào năm 2023? Các bản cập nhật, xu hướng mới nổi và nhu cầu đối với các chuyên gia Java</title>
-        <author>
-            <name>nguyenducthang</name>
-        </author>
-        <link href="https://johnxiaonathangnguyen.github.io/Blog/co-gi-moi-de-mong-doi-tu-java-vao-nam-2023-cac-ban-cap-nhat-xu-huong-moi-noi-va-nhu-cau-doi-voi-cac-chuyen-gia-java.html"/>
-        <id>https://johnxiaonathangnguyen.github.io/Blog/co-gi-moi-de-mong-doi-tu-java-vao-nam-2023-cac-ban-cap-nhat-xu-huong-moi-noi-va-nhu-cau-doi-voi-cac-chuyen-gia-java.html</id>
-        <media:content url="https://johnxiaonathangnguyen.github.io/Blog/media/posts/3/original.jpeg" medium="image" />
-            <category term="Bài viết của tôi"/>
-
-        <updated>2024-12-26T11:06:45+07:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://johnxiaonathangnguyen.github.io/Blog/media/posts/3/original.jpeg" alt="" />
-                    Nhìn vào năm 2022 , không có dấu hiệu nào cho thấy mức độ phổ biến của Java sẽ chậm lại trong tất cả các ngành. Java đã có hai phiên bản mới, trong khi VMware cuối cùng đã phát hành Spring Framework 6 và&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://johnxiaonathangnguyen.github.io/Blog/media/posts/3/original.jpeg" class="type:primaryImage" alt="" /></p>
-                <p><a href="https://codegym.cc/groups/posts/966-whats-new-in-java-18-and-19-releases-of-new-frameworks-and-jakarta-ee-10-state-of-java-in-2022" target="_blank" rel="noopener">Nhìn vào năm 2022</a> , không có dấu hiệu nào cho thấy mức độ phổ biến của Java sẽ chậm lại trong tất cả các ngành. Java đã có hai phiên bản mới, trong khi VMware cuối cùng đã phát hành Spring Framework 6 và Spring Boot 3, thường được sử dụng trong các dự án Java. Và chúng tôi đặt cược rằng Java sẽ tồn tại trong tương lai và thậm chí còn phát triển trong khi áp dụng các xu hướng mới. Vì vậy, hãy kiểm tra các bản cập nhật gần nhất cho Java vào năm 2023. </p>
-<p><img loading="lazy" src="https://cdn.codegym.cc/images/article/cb1f78ae-6bfc-4217-b359-b0167954bc57/800.webp" alt="Có gì mới để mong đợi từ Java vào năm 2023?  Cập nhật, Xu hướng mới nổi và Nhu cầu về Chuyên gia Java - 1" data-is-external-image="true"></p>
-<h2>Những gì mong đợi từ các phiên bản mới ?</h2>
-<p>Phiên bản mới nhất của JDK (Bộ công cụ phát triển Java) 19 đã được phát hành vào tháng 9 năm 2022. Phiên bản tiếp theo, Java 20, <a href="https://www.oracle.com/java/technologies/java-se-support-roadmap.html" rel="nofollow noopener" target="_blank">sẽ không phải là LTS</a> và sẽ ra mắt thế giới vào tháng 3 năm 2023, trong khi phiên bản tiếp theo, Java 21, sẽ là được hỗ trợ với Hỗ trợ dài hạn (LTS). Bắt đầu với phiên bản tiếp theo trên docket, Java 20, nó sẽ mang lại một số cập nhật tuyệt vời và thêm chức năng mới cho dữ liệu bất biến, tổng quát chung và mẫu chuỗi. Đây là danh sách các tính năng chúng ta sẽ thấy trong Java 20:</p>
-<ul>
-<li><strong><span class="text-bold">Các biến cục bộ mở rộng</span></strong> để cho phép chia sẻ dữ liệu bất biến trong các luồng.</li>
-<li><strong><span class="text-bold">Generics chung</span> để kết hợp</strong> việc xử lý các loại tham chiếu và nguyên thủy trong mã chung.</li>
-<li><strong><span class="text-bold">Các mẫu chuỗi</span></strong> giúp dễ dàng diễn đạt các chuỗi bao gồm các giá trị được tính trong thời gian chạy.</li>
-<li>Một <strong><span class="text-bold">API cho dấu vết ngăn xếp không đồng bộ</span> </strong>.</li>
-<li>API <strong><span class="text-bold">tệp lớp</span></strong> để tạo và chuyển đổi tệp lớp Java.</li>
-<li><strong><span class="text-bold">Các đối tượng giá trị</span></strong> để nâng cao mô hình đối tượng Java với các thể hiện của lớp chỉ có các thể hiện cuối cùng.</li>
-<li><strong><span class="text-bold">Các lớp nguyên thủy</span></strong> . Đây là những loại lớp giá trị đặc biệt sẽ xác định các loại nguyên thủy mới.</li>
-<li><strong><span class="text-bold">Các bộ sưu tập được sắp xếp theo thứ</span> tự</strong> cung cấp giao diện Bộ sưu tập.</li>
-<li><strong><span class="text-bold">Các mẫu ghi lại</span></strong> để giải cấu trúc các giá trị bản ghi.</li>
-<li><strong><span class="text-bold">Hàm ngoại</span> </strong>và API bộ nhớ để hoạt động với mã và dữ liệu bên ngoài thời gian chạy Java.</li>
-<li><strong><span class="text-bold">Các luồng ảo</span></strong> (hiện khả dụng trong Java 19 ở chế độ thử nghiệm) để đơn giản hóa việc viết và duy trì các ứng dụng đồng thời có thông lượng cao.</li>
-<li>API <strong><span class="text-bold">vector</span> </strong>(đã xuất hiện lần thứ tư trong JDK 19) để đạt được hiệu suất tốt hơn so với tính toán vô hướng.</li>
-<li><strong><span class="text-bold">Đồng thời có cấu trúc</span></strong> để dễ dàng lập trình đa luồng thông qua API (hiện tại, nó cũng đang trong giai đoạn thử nghiệm trong Java 19).</li>
-<li><strong><span class="text-bold">Khớp mẫu</span></strong> cho các biểu thức và câu lệnh chuyển đổi.</li>
-</ul>
-<p>Java 20 sẽ là một bản phát hành ngắn hạn, có nghĩa là nó chỉ được Oracle hỗ trợ trong sáu tháng. Tuy nhiên, như đã đề cập, Java 21 sau đây sẽ là bản phát hành LTS (Hỗ trợ dài hạn) với sự hỗ trợ của Oracle trong một vài năm. Java 21 sẽ ra mắt thế giới vào tháng 9 năm 2023 theo chu kỳ LTS 2 năm của Oracle. </p>
-<p><img loading="lazy" src="https://cdn.codegym.cc/images/article/1eef20fb-9f1f-4750-aa07-d82598590221/1080.webp" alt="Có gì mới để mong đợi từ Java vào năm 2023?  Cập nhật, Xu hướng mới nổi và Nhu cầu về Chuyên gia Java - 2" data-is-external-image="true"></p>
-<h2>Xu hướng Java hàng đầu năm 2023 là gì ?</h2>
-<p>Được cập nhật thường xuyên với các tính năng mới, Java chắc chắn sẽ phù hợp trong một thị trường phát triển nhanh chóng và tiếp tục là ngôn ngữ lập trình được sử dụng rộng rãi. Và để giúp bạn hiểu rõ hơn về triển vọng của Java, chúng ta cũng hãy xem xét các xu hướng Java có liên quan:</p>
-<ul>
-<li>
-<p><strong><span class="text-bold">Điện toán đám mây:</span></strong> Năm 2018, chúng tôi đã chứng kiến ​​sự gia tăng đáng kể trong môi trường không có máy chủ. Nhưng năm 2018 chỉ là năm mà chúng ta bắt đầu coi không gian công nghệ dựa trên đám mây là “thứ có thật”. Tuy nhiên, việc áp dụng nghiêm túc công nghệ dựa trên đám mây dự kiến ​​sẽ xuất hiện trong vòng 5 đến 10 năm tới. Do đó, năm 2023 có thể sẽ là năm bắt đầu của những thay đổi nghiêm trọng. Và đây là lúc Java sẽ dẫn đầu (nó rất tuyệt khi sử dụng trong cơ sở hạ tầng của điện toán đám mây).</p>
-</li>
-<li>
-<p><strong><span class="text-bold">Trí tuệ nhân tạo (AI):</span></strong> Không cần phải nói, AI đang phát triển với tốc độ chóng mặt và nó đã có tác động đáng kể đến nhiều ngành công nghiệp. Và Java là lý tưởng để xây dựng các ứng dụng AI mạnh mẽ nhờ tính di động và tính độc lập của nền tảng. Thêm vào đó, bản chất hướng đối tượng của Java cho phép phát triển các thuật toán phức tạp. Cùng với đó, chúng tôi tin rằng AI cũng sẽ ảnh hưởng khá nhiều đến các nhà phát triển Java.</p>
-</li>
-<li>
-<p><strong><span class="text-bold">Máy Học:</span></strong> Một trong những điều khiến Java trở nên độc đáo là nó là ngôn ngữ lập trình đa mô hình, nghĩa là nó không chỉ là một công cụ mà còn là một khung. Do đó, chúng tôi tin rằng sự trỗi dậy của Java sẽ thúc đẩy việc áp dụng máy học. Và một xu hướng phụ khác mà chúng tôi dự đoán sẽ tiếp tục phát triển phổ biến là việc giới thiệu các khung ML dựa trên Java.</p>
-</li>
-<li>
-<p><strong><span class="text-bold">Khung mùa xuân:</span></strong> Có thể nói rằng Spring sẽ tiếp tục đóng một vai trò rất quan trọng trong quá trình phát triển Java. Và, khi các khung công tác Spring phát triển (vào năm 2022, chúng tôi đã thấy việc phát hành Spring Framework 6 và Spring Boot 3), chúng sẽ trở nên mạnh mẽ hơn và dễ sử dụng hơn. Vì vậy, những nhà phát triển Java muốn dẫn đầu nên để mắt đến Spring.</p>
-</li>
-<li>
-<p><strong><span class="text-bold">Nền tảng dưới dạng dịch vụ:</span> </strong>Nói một cách đơn giản, PaaS là ​​một dạng cơ sở hạ tầng đám mây và vì Java có hỗ trợ cho môi trường đám mây, chúng tôi dự đoán sẽ thấy nhiều hỗ trợ hơn nữa cho PaaS dựa trên Java.</p>
-</li>
-<li>
-<p><strong><span class="text-bold">Phát triển di động:</span></strong> Phát triển di động là một lĩnh vực khác mà Java sẽ tiếp tục phát triển mạnh khi nó được sử dụng rộng rãi cho Android, nền tảng di động được sử dụng phổ biến nhất trên thế giới. Và khi nền tảng liên tục nhận được một số tiến bộ, chúng tôi hy vọng sẽ có nhiều nhà phát triển Java hơn làm việc trong lĩnh vực phát triển ứng dụng Android. Vì vậy, tương lai của Java trong lĩnh vực phát triển Android có vẻ tươi sáng.Các nhà phát triển Java sẽ vẫn được yêu cầu vào năm 2023 chứ?</p>
-</li>
-</ul>
-<h2>Các nhà phát triển Java sẽ vẫn được yêu cầu vào năm 2023 chứ ?</h2>
-<p>Luôn có nhu cầu lớn đối với các chuyên gia lập trình Java và xu hướng này dường như sẽ không thay đổi vào năm 2023. Trên thực tế, tương lai của các nhà phát triển Java đang hình thành rất tích cực và hứa hẹn một công việc ổn định và được trả lương cao cho họ. Ví dụ: trang web việc làm phổ biến nhất toàn cầu, Thật vậy, hiện cung cấp hơn 48.000 Việc làm cho Nhà phát triển Java, với mức lương trung bình của các chuyên gia Sơ cấp dao động từ 82.000 đến 104.000 USD mỗi năm. Ngược lại, đối thủ cạnh tranh chính của nó, Glassdoor, liệt kê hơn 19.000 cơ hội việc làm cho các nhà phát triển Java chỉ riêng ở Hoa Kỳ, với mức lương hấp dẫn lên tới 182.000 USD. Và nếu chúng ta xem xét các bài đăng liên quan khác như Kiến trúc sư Java, kỹ sư Java, lập trình viên Java, nhà phát triển ứng dụng Android và chuyên gia QA thì số lượng cơ hội việc làm sẽ tăng lên đáng kể. </p>
-<figure class="align-center"><img loading="lazy"  src="https://cdn.codegym.cc/images/article/22cf7e08-f001-4ea2-b6c2-87686935a1cb/512.webp" alt="Có gì mới để mong đợi từ Java vào năm 2023?  Cập nhật, Xu hướng mới nổi và Nhu cầu về Chuyên gia Java - 3" width="522" height="309" data-is-external-image="true"></figure>
-<p class="align-center">Nguồn: <a href="https://www.indeed.com/jobs?q=Java+Developer&amp;l=&amp;vjk=a24d0e612bbc5372" rel="nofollow noopener" target="_blank">Thật vậy</a></p>
-<p><img loading="lazy" src="https://cdn.codegym.cc/images/article/7ade1f86-c60c-49d1-81b8-f17a99b89e49/800.webp" alt="Có gì mới để mong đợi từ Java vào năm 2023?  Cập nhật, Xu hướng mới nổi và Nhu cầu về Chuyên gia Java - 4" data-is-external-image="true"></p>
-<p class="align-center">Nguồn: <a href="https://www.glassdoor.com/Job/java-developer-jobs-SRCH_KO0,14.htm?context=Jobs&amp;clickSource=searchBox" rel="nofollow noopener" target="_blank">Cửa kính</a></p>
-<p>Nói về các công việc “được sử dụng”, nghiên cứu mới nhất <a href="https://www.zippia.com/java-developer-jobs/demographics/" rel="nofollow noopener" target="_blank">của Zippia</a> cho thấy có hơn 174.712 Nhà phát triển Java hiện đang làm việc chỉ riêng ở Hoa Kỳ. Và theo thực tế là thị trường CNTT toàn cầu sẽ chỉ phát triển trong tương lai gần nhất, chúng tôi tin rằng sẽ còn có nhiều cơ hội hơn nữa cho các chuyên gia Java lành nghề (thị trường CNTT dự kiến ​​sẽ tăng trưởng trong giai đoạn 2023-2026 lên tới 13.092,49 tỷ USD tại CAGR là 8,8% theo <a href="https://www.thebusinessresearchcompany.com/report/information-technology-global-market-report" rel="nofollow noopener" target="_blank">The Business Research Company</a> ). Một báo cáo khác được phát hành bởi <a href="https://www.statista.com/statistics/627312/worldwide-developer-population/" rel="nofollow noopener" target="_blank">Statista</a>cho thấy rằng dân số nhà phát triển toàn cầu sẽ tăng lên tới 27,7 triệu người trên toàn thế giới, bao gồm gần 8 triệu nhà phát triển Java. Sự sẵn có của các chuyên gia Java như vậy khiến các công ty sẵn sàng chọn Java cho các dự án của họ, vì họ có thể sẽ gặp khó khăn trong việc tìm kiếm các nhà phát triển Java có trình độ tốt. Tuy nhiên, khi công nghệ không ngừng phát triển và số lượng nhà phát triển lành nghề tăng lên, các nhà phát triển Java nên sẵn sàng liên tục cập nhật kiến ​​thức và nâng cấp kỹ năng của họ để luôn dẫn đầu đối thủ. </p>
-<h2>Kết thúc</h2>
-<p>Không còn nghi ngờ gì nữa, Java sẽ vẫn là một trong những ngôn ngữ lập trình phổ biến và lâu đời nhất, giúp tạo ra các ứng dụng web, di động và máy tính để bàn. Và không chỉ vậy. Cái hay của Java là nó tự hào có cơ sở ở khắp mọi nơi, khiến nó trở thành con đường tự nhiên cho AI, máy học, dữ liệu lớn, IoT, chuỗi khối và các xu hướng sắp tới khác. Vì vậy, chúng tôi đặt cược rằng Java sẽ chiếm vị trí trung tâm trong việc áp dụng các công nghệ mới nổi, điều này khiến nó trở thành một lựa chọn hấp dẫn khi tìm kiếm việc làm với tư cách là nhà phát triển Java vào năm 2023. Cuối cùng, Java có một tương lai tươi sáng và nó sẽ giữ vị trí thống trị của mình. Bạn có đồng ý không? Bạn mong đợi những thay đổi lớn nào trong ngành công nghiệp Java trong năm tới? Theo bạn, tương lai của Java là gì? Bạn được chào đón để chia sẻ suy nghĩ và dự đoán của bạn với chúng tôi!</p>
-<p> </p>
             ]]>
         </content>
     </entry>
